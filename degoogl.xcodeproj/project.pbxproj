@@ -1,0 +1,871 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF7D6C5726FD7DA7005ACE62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D6C5626FD7DA7005ACE62 /* AppDelegate.swift */; };
+		CF7D6C5B26FD7DA7005ACE62 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C5926FD7DA7005ACE62 /* Main.html */; };
+		CF7D6C5D26FD7DA7005ACE62 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C5C26FD7DA7005ACE62 /* Icon.png */; };
+		CF7D6C5F26FD7DA7005ACE62 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C5E26FD7DA7005ACE62 /* Style.css */; };
+		CF7D6C6126FD7DA7005ACE62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D6C6026FD7DA7005ACE62 /* SceneDelegate.swift */; };
+		CF7D6C6326FD7DA7005ACE62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D6C6226FD7DA7005ACE62 /* ViewController.swift */; };
+		CF7D6C6626FD7DA7005ACE62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C6426FD7DA7005ACE62 /* LaunchScreen.storyboard */; };
+		CF7D6C6926FD7DA7005ACE62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C6726FD7DA7005ACE62 /* Main.storyboard */; };
+		CF7D6C7526FD7DA9005ACE62 /* degooglTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D6C7426FD7DA9005ACE62 /* degooglTests.swift */; };
+		CF7D6C7F26FD7DA9005ACE62 /* degooglUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D6C7E26FD7DA9005ACE62 /* degooglUITests.swift */; };
+		CF7D6C8126FD7DA9005ACE62 /* degooglUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D6C8026FD7DA9005ACE62 /* degooglUITestsLaunchTests.swift */; };
+		CF7D6C8726FD7DA9005ACE62 /* degoogl Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CF7D6C8626FD7DA9005ACE62 /* degoogl Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CF7D6C8C26FD7DA9005ACE62 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D6C8B26FD7DA9005ACE62 /* SafariWebExtensionHandler.swift */; };
+		CF7D6C8F26FD7DA9005ACE62 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C8E26FD7DA9005ACE62 /* _locales */; };
+		CF7D6C9126FD7DA9005ACE62 /* images in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C9026FD7DA9005ACE62 /* images */; };
+		CF7D6C9326FD7DA9005ACE62 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C9226FD7DA9005ACE62 /* manifest.json */; };
+		CF7D6C9526FD7DA9005ACE62 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C9426FD7DA9005ACE62 /* background.js */; };
+		CF7D6C9726FD7DA9005ACE62 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C9626FD7DA9005ACE62 /* content.js */; };
+		CF7D6C9926FD7DA9005ACE62 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C9826FD7DA9005ACE62 /* popup.html */; };
+		CF7D6C9B26FD7DA9005ACE62 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C9A26FD7DA9005ACE62 /* popup.css */; };
+		CF7D6C9D26FD7DA9005ACE62 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C9C26FD7DA9005ACE62 /* popup.js */; };
+		CF7D6C9F26FD7DA9005ACE62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C6A26FD7DA9005ACE62 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF7D6C7126FD7DA9005ACE62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF7D6C4B26FD7DA7005ACE62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF7D6C5226FD7DA7005ACE62;
+			remoteInfo = degoogl;
+		};
+		CF7D6C7B26FD7DA9005ACE62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF7D6C4B26FD7DA7005ACE62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF7D6C5226FD7DA7005ACE62;
+			remoteInfo = degoogl;
+		};
+		CF7D6C8826FD7DA9005ACE62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF7D6C4B26FD7DA7005ACE62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF7D6C8526FD7DA9005ACE62;
+			remoteInfo = "degoogl Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF7D6CA526FD7DA9005ACE62 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CF7D6C8726FD7DA9005ACE62 /* degoogl Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CF7D6C5326FD7DA7005ACE62 /* degoogl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = degoogl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7D6C5626FD7DA7005ACE62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF7D6C5A26FD7DA7005ACE62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		CF7D6C5C26FD7DA7005ACE62 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		CF7D6C5E26FD7DA7005ACE62 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		CF7D6C6026FD7DA7005ACE62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CF7D6C6226FD7DA7005ACE62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF7D6C6526FD7DA7005ACE62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF7D6C6826FD7DA7005ACE62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF7D6C6A26FD7DA9005ACE62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF7D6C6B26FD7DA9005ACE62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF7D6C7026FD7DA9005ACE62 /* degooglTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = degooglTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7D6C7426FD7DA9005ACE62 /* degooglTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = degooglTests.swift; sourceTree = "<group>"; };
+		CF7D6C7A26FD7DA9005ACE62 /* degooglUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = degooglUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7D6C7E26FD7DA9005ACE62 /* degooglUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = degooglUITests.swift; sourceTree = "<group>"; };
+		CF7D6C8026FD7DA9005ACE62 /* degooglUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = degooglUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CF7D6C8626FD7DA9005ACE62 /* degoogl Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "degoogl Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7D6C8B26FD7DA9005ACE62 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		CF7D6C8E26FD7DA9005ACE62 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		CF7D6C9026FD7DA9005ACE62 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		CF7D6C9226FD7DA9005ACE62 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		CF7D6C9426FD7DA9005ACE62 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		CF7D6C9626FD7DA9005ACE62 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		CF7D6C9826FD7DA9005ACE62 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		CF7D6C9A26FD7DA9005ACE62 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		CF7D6C9C26FD7DA9005ACE62 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		CF7D6C9E26FD7DA9005ACE62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF7D6C5026FD7DA7005ACE62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7D6C6D26FD7DA9005ACE62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7D6C7726FD7DA9005ACE62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7D6C8326FD7DA9005ACE62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF7D6C4A26FD7DA7005ACE62 = {
+			isa = PBXGroup;
+			children = (
+				CF7D6C5526FD7DA7005ACE62 /* degoogl */,
+				CF7D6C7326FD7DA9005ACE62 /* degooglTests */,
+				CF7D6C7D26FD7DA9005ACE62 /* degooglUITests */,
+				CF7D6C8A26FD7DA9005ACE62 /* degoogl Extension */,
+				CF7D6C5426FD7DA7005ACE62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF7D6C5426FD7DA7005ACE62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF7D6C5326FD7DA7005ACE62 /* degoogl.app */,
+				CF7D6C7026FD7DA9005ACE62 /* degooglTests.xctest */,
+				CF7D6C7A26FD7DA9005ACE62 /* degooglUITests.xctest */,
+				CF7D6C8626FD7DA9005ACE62 /* degoogl Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF7D6C5526FD7DA7005ACE62 /* degoogl */ = {
+			isa = PBXGroup;
+			children = (
+				CF7D6C5626FD7DA7005ACE62 /* AppDelegate.swift */,
+				CF7D6C6026FD7DA7005ACE62 /* SceneDelegate.swift */,
+				CF7D6C6226FD7DA7005ACE62 /* ViewController.swift */,
+				CF7D6C6426FD7DA7005ACE62 /* LaunchScreen.storyboard */,
+				CF7D6C6726FD7DA7005ACE62 /* Main.storyboard */,
+				CF7D6C6A26FD7DA9005ACE62 /* Assets.xcassets */,
+				CF7D6C6B26FD7DA9005ACE62 /* Info.plist */,
+				CF7D6C5826FD7DA7005ACE62 /* Resources */,
+			);
+			path = degoogl;
+			sourceTree = "<group>";
+		};
+		CF7D6C5826FD7DA7005ACE62 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CF7D6C5926FD7DA7005ACE62 /* Main.html */,
+				CF7D6C5C26FD7DA7005ACE62 /* Icon.png */,
+				CF7D6C5E26FD7DA7005ACE62 /* Style.css */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CF7D6C7326FD7DA9005ACE62 /* degooglTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF7D6C7426FD7DA9005ACE62 /* degooglTests.swift */,
+			);
+			path = degooglTests;
+			sourceTree = "<group>";
+		};
+		CF7D6C7D26FD7DA9005ACE62 /* degooglUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF7D6C7E26FD7DA9005ACE62 /* degooglUITests.swift */,
+				CF7D6C8026FD7DA9005ACE62 /* degooglUITestsLaunchTests.swift */,
+			);
+			path = degooglUITests;
+			sourceTree = "<group>";
+		};
+		CF7D6C8A26FD7DA9005ACE62 /* degoogl Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CF7D6C8B26FD7DA9005ACE62 /* SafariWebExtensionHandler.swift */,
+				CF7D6C9E26FD7DA9005ACE62 /* Info.plist */,
+				CF7D6C8D26FD7DA9005ACE62 /* Resources */,
+			);
+			path = "degoogl Extension";
+			sourceTree = "<group>";
+		};
+		CF7D6C8D26FD7DA9005ACE62 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CF7D6C8E26FD7DA9005ACE62 /* _locales */,
+				CF7D6C9026FD7DA9005ACE62 /* images */,
+				CF7D6C9226FD7DA9005ACE62 /* manifest.json */,
+				CF7D6C9426FD7DA9005ACE62 /* background.js */,
+				CF7D6C9626FD7DA9005ACE62 /* content.js */,
+				CF7D6C9826FD7DA9005ACE62 /* popup.html */,
+				CF7D6C9A26FD7DA9005ACE62 /* popup.css */,
+				CF7D6C9C26FD7DA9005ACE62 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF7D6C5226FD7DA7005ACE62 /* degoogl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF7D6CA626FD7DA9005ACE62 /* Build configuration list for PBXNativeTarget "degoogl" */;
+			buildPhases = (
+				CF7D6C4F26FD7DA7005ACE62 /* Sources */,
+				CF7D6C5026FD7DA7005ACE62 /* Frameworks */,
+				CF7D6C5126FD7DA7005ACE62 /* Resources */,
+				CF7D6CA526FD7DA9005ACE62 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF7D6C8926FD7DA9005ACE62 /* PBXTargetDependency */,
+			);
+			name = degoogl;
+			productName = degoogl;
+			productReference = CF7D6C5326FD7DA7005ACE62 /* degoogl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF7D6C6F26FD7DA9005ACE62 /* degooglTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF7D6CA926FD7DA9005ACE62 /* Build configuration list for PBXNativeTarget "degooglTests" */;
+			buildPhases = (
+				CF7D6C6C26FD7DA9005ACE62 /* Sources */,
+				CF7D6C6D26FD7DA9005ACE62 /* Frameworks */,
+				CF7D6C6E26FD7DA9005ACE62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF7D6C7226FD7DA9005ACE62 /* PBXTargetDependency */,
+			);
+			name = degooglTests;
+			productName = degooglTests;
+			productReference = CF7D6C7026FD7DA9005ACE62 /* degooglTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF7D6C7926FD7DA9005ACE62 /* degooglUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF7D6CAC26FD7DA9005ACE62 /* Build configuration list for PBXNativeTarget "degooglUITests" */;
+			buildPhases = (
+				CF7D6C7626FD7DA9005ACE62 /* Sources */,
+				CF7D6C7726FD7DA9005ACE62 /* Frameworks */,
+				CF7D6C7826FD7DA9005ACE62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF7D6C7C26FD7DA9005ACE62 /* PBXTargetDependency */,
+			);
+			name = degooglUITests;
+			productName = degooglUITests;
+			productReference = CF7D6C7A26FD7DA9005ACE62 /* degooglUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CF7D6C8526FD7DA9005ACE62 /* degoogl Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF7D6CA226FD7DA9005ACE62 /* Build configuration list for PBXNativeTarget "degoogl Extension" */;
+			buildPhases = (
+				CF7D6C8226FD7DA9005ACE62 /* Sources */,
+				CF7D6C8326FD7DA9005ACE62 /* Frameworks */,
+				CF7D6C8426FD7DA9005ACE62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "degoogl Extension";
+			productName = "degoogl Extension";
+			productReference = CF7D6C8626FD7DA9005ACE62 /* degoogl Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF7D6C4B26FD7DA7005ACE62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					CF7D6C5226FD7DA7005ACE62 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					CF7D6C6F26FD7DA9005ACE62 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = CF7D6C5226FD7DA7005ACE62;
+					};
+					CF7D6C7926FD7DA9005ACE62 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = CF7D6C5226FD7DA7005ACE62;
+					};
+					CF7D6C8526FD7DA9005ACE62 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = CF7D6C4E26FD7DA7005ACE62 /* Build configuration list for PBXProject "degoogl" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF7D6C4A26FD7DA7005ACE62;
+			productRefGroup = CF7D6C5426FD7DA7005ACE62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF7D6C5226FD7DA7005ACE62 /* degoogl */,
+				CF7D6C6F26FD7DA9005ACE62 /* degooglTests */,
+				CF7D6C7926FD7DA9005ACE62 /* degooglUITests */,
+				CF7D6C8526FD7DA9005ACE62 /* degoogl Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF7D6C5126FD7DA7005ACE62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7D6C5D26FD7DA7005ACE62 /* Icon.png in Resources */,
+				CF7D6C6926FD7DA7005ACE62 /* Main.storyboard in Resources */,
+				CF7D6C6626FD7DA7005ACE62 /* LaunchScreen.storyboard in Resources */,
+				CF7D6C5B26FD7DA7005ACE62 /* Main.html in Resources */,
+				CF7D6C9F26FD7DA9005ACE62 /* Assets.xcassets in Resources */,
+				CF7D6C5F26FD7DA7005ACE62 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7D6C6E26FD7DA9005ACE62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7D6C7826FD7DA9005ACE62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7D6C8426FD7DA9005ACE62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7D6C9526FD7DA9005ACE62 /* background.js in Resources */,
+				CF7D6C9B26FD7DA9005ACE62 /* popup.css in Resources */,
+				CF7D6C9926FD7DA9005ACE62 /* popup.html in Resources */,
+				CF7D6C9126FD7DA9005ACE62 /* images in Resources */,
+				CF7D6C9326FD7DA9005ACE62 /* manifest.json in Resources */,
+				CF7D6C8F26FD7DA9005ACE62 /* _locales in Resources */,
+				CF7D6C9726FD7DA9005ACE62 /* content.js in Resources */,
+				CF7D6C9D26FD7DA9005ACE62 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF7D6C4F26FD7DA7005ACE62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7D6C6326FD7DA7005ACE62 /* ViewController.swift in Sources */,
+				CF7D6C5726FD7DA7005ACE62 /* AppDelegate.swift in Sources */,
+				CF7D6C6126FD7DA7005ACE62 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7D6C6C26FD7DA9005ACE62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7D6C7526FD7DA9005ACE62 /* degooglTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7D6C7626FD7DA9005ACE62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7D6C8126FD7DA9005ACE62 /* degooglUITestsLaunchTests.swift in Sources */,
+				CF7D6C7F26FD7DA9005ACE62 /* degooglUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7D6C8226FD7DA9005ACE62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7D6C8C26FD7DA9005ACE62 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF7D6C7226FD7DA9005ACE62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF7D6C5226FD7DA7005ACE62 /* degoogl */;
+			targetProxy = CF7D6C7126FD7DA9005ACE62 /* PBXContainerItemProxy */;
+		};
+		CF7D6C7C26FD7DA9005ACE62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF7D6C5226FD7DA7005ACE62 /* degoogl */;
+			targetProxy = CF7D6C7B26FD7DA9005ACE62 /* PBXContainerItemProxy */;
+		};
+		CF7D6C8926FD7DA9005ACE62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF7D6C8526FD7DA9005ACE62 /* degoogl Extension */;
+			targetProxy = CF7D6C8826FD7DA9005ACE62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF7D6C5926FD7DA7005ACE62 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF7D6C5A26FD7DA7005ACE62 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		CF7D6C6426FD7DA7005ACE62 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF7D6C6526FD7DA7005ACE62 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CF7D6C6726FD7DA7005ACE62 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF7D6C6826FD7DA7005ACE62 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF7D6CA026FD7DA9005ACE62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF7D6CA126FD7DA9005ACE62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF7D6CA326FD7DA9005ACE62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 773WNUNYUG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "degoogl Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "degoogl Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.degoogl.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF7D6CA426FD7DA9005ACE62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 773WNUNYUG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "degoogl Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "degoogl Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.degoogl.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF7D6CA726FD7DA9005ACE62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 773WNUNYUG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = degoogl/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = degoogl;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.degoogl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF7D6CA826FD7DA9005ACE62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 773WNUNYUG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = degoogl/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = degoogl;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.degoogl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF7D6CAA26FD7DA9005ACE62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 773WNUNYUG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.degooglTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/degoogl.app/degoogl";
+			};
+			name = Debug;
+		};
+		CF7D6CAB26FD7DA9005ACE62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 773WNUNYUG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.degooglTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/degoogl.app/degoogl";
+			};
+			name = Release;
+		};
+		CF7D6CAD26FD7DA9005ACE62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 773WNUNYUG;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.degooglUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = degoogl;
+			};
+			name = Debug;
+		};
+		CF7D6CAE26FD7DA9005ACE62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 773WNUNYUG;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.degooglUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = degoogl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF7D6C4E26FD7DA7005ACE62 /* Build configuration list for PBXProject "degoogl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7D6CA026FD7DA9005ACE62 /* Debug */,
+				CF7D6CA126FD7DA9005ACE62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF7D6CA226FD7DA9005ACE62 /* Build configuration list for PBXNativeTarget "degoogl Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7D6CA326FD7DA9005ACE62 /* Debug */,
+				CF7D6CA426FD7DA9005ACE62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF7D6CA626FD7DA9005ACE62 /* Build configuration list for PBXNativeTarget "degoogl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7D6CA726FD7DA9005ACE62 /* Debug */,
+				CF7D6CA826FD7DA9005ACE62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF7D6CA926FD7DA9005ACE62 /* Build configuration list for PBXNativeTarget "degooglTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7D6CAA26FD7DA9005ACE62 /* Debug */,
+				CF7D6CAB26FD7DA9005ACE62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF7D6CAC26FD7DA9005ACE62 /* Build configuration list for PBXNativeTarget "degooglUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7D6CAD26FD7DA9005ACE62 /* Debug */,
+				CF7D6CAE26FD7DA9005ACE62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF7D6C4B26FD7DA7005ACE62 /* Project object */;
+}
