@@ -21,7 +21,8 @@
 
     "content_scripts": [{
         "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
+        "matches": ["*://*.google.com/*"]
+        
     }],
 
     "browser_action": {
@@ -33,6 +34,6 @@
             "38": "images/toolbar-icon-38.png"
         }
     },
-
-    "permissions": [ ]
+    
+    "permissions": [ "activeTab" ]
 }
