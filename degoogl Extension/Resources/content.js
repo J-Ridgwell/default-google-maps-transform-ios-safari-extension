@@ -1,5 +1,3 @@
-console.log("hello world from content.js");
-
 browser.runtime.sendMessage({ greeting: "hello" }).then((response) => {
     console.log("Received response: ", response);
 });
@@ -12,90 +10,73 @@ browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
 const elementToObserve = document.querySelector("body");
 const observeOptions = { subtree: false, childList: true, attributes: false };
 const moreResultsBtn = document.getElementsByTagName('g-more-link')[0];
+const seeOtherLocationsBtn = document.querySelector('[data-attrid^="see more locations"]');
+const querySelectorString = '[href^="https://maps.google.com"], [data-url^="https://maps.google.com"], [data-link^="https://maps.google.com"]';
 
 const observer = new MutationObserver(
     () => {
         console.log('observer is triggered');
 
-        let elems = document.querySelectorAll('[data-url^="https://maps.google.com"]');
-
-        for (const elem of elems) {
-            let appleURL = googleToApple(elem);
-            elem.setAttribute('data-url',appleURL ?? elem.getAttribute('data-url'));
-        }
+        findElements();
     }
 );
 
+window.addEventListener('load', (event) => {
+    findElements();
+});
 
-moreResultsBtn.addEventListener('click', (event) => {
+moreResultsBtn?.addEventListener('click', (event) => {
     console.log('More results button clicked');
     observer.observe(elementToObserve, observeOptions);
 });
 
-window.addEventListener('load', (event) => {
-    console.log('page is fully loaded');
-    findElements();
+seeOtherLocationsBtn?.addEventListener('click', (event) => {
+    console.log('More results button clicked');
+    observer.observe(elementToObserve, observeOptions);
+
 });
 
 
 function findElements() {
     try {
-        let elems = document.querySelectorAll('[href^="https://maps.google.com"]');
+        let elems = document.querySelectorAll(querySelectorString);
         
         for (const elem of elems) {
-            console.log(elem);
-            let appleURL = googleToApple(elem);
-            elem.setAttribute('href', appleURL ?? elem.getAttribute('href'));
-        }
-        
-        elems = document.querySelectorAll('[data-url^="https://maps.google.com"]');
-
-        for (const elem of elems) {
-            let appleURL = googleToApple(elem);
-            elem.setAttribute('data-url', appleURL ?? elem.getAttribute('data-url'));
-        }
-
-        elems = document.querySelectorAll('[data-link^="https://maps.google.com"]')
-
-        for (const elem of elems) {
-            let appleURL = googleToApple(elem);
-            elem.setAttribute('data-link', appleURL ?? elem.getAttribute('data-link'));
+            const attributeKey = elem.getAttribute('data-url') ? 'data-url' : elem.getAttribute('data-link') ? 'data-link' : 'href';
+            const attributeValue = elem.getAttribute(attributeKey);
+            const converted = googleToApple(elem, attributeValue);
+            console.info(`converted url: ${converted}`)
+            elem.setAttribute(attributeKey, converted ?? attributeValue);
         }
 
     } catch (e) {
-        console.error("error selecting: " + e.toString());
+        console.error("error in findElements(): " + e.toString());
     }
 }
 
 
-function googleToApple(elem) {
-    let url = elem.getAttribute('data-link') ?? elem.getAttribute('data-url') ?? elem.getAttribute('href');
+function googleToApple(elem, attributeValue) {
+    let url = attributeValue.toString();
     const stringToFind = 'https://maps.google.com/maps/dir//';
     const stringToFind1 = 'https://maps.google.com/maps/place//data=';
     const stringToFind2 = 'https://maps.google.com/maps?q=';
-    let urlBuilder;
     
     console.log(url);
     
     if (url.indexOf(stringToFind) != -1) {
         try {
-            urlBuilder = url.slice(stringToFind.length, url.indexOf('/data='));
-            urlBuilder = urlBuilder.replaceAll(',','');
-            let ret = `https://maps.apple.com/?daddr=${urlBuilder}`;
-            console.log(ret);
-            return ret;
+            let urlBuilder = url.slice(stringToFind.length, url.indexOf('/data=')).replaceAll(',','');
+            return `https://maps.apple.com/?daddr=${urlBuilder}`;
         } catch (e) {
             console.error(`Error in stringToFind manipulation: ${e.toString()}`);
+            return null;
         }
     }
     
     if (url.indexOf(stringToFind1) != -1) {
         try {
-            let innerText = elem.innerText;
-            innerText = innerText.replaceAll(' ', '+').replaceAll(',','');
-            let ret = `https://maps.apple.com/?daddr=${innerText}`;
-            console.log(`innerText result= ${ret}`);
-            return ret;
+            let innerText = elem.innerText.replaceAll(' ', '+').replaceAll(',','');
+            return `https://maps.apple.com/?daddr=${innerText}`;
         } catch (e) {
             console.error(`Error in stringToFind1 manipulation: ${e.toString()}`);
             return null;
@@ -105,17 +86,13 @@ function googleToApple(elem) {
     if (url.indexOf(stringToFind2) != -1) {
         try {
             let newString = url.slice(stringToFind2.length, url.indexOf('&'));
-            let ret = `https://maps.apple.com/?q=${newString}`;
-            console.log(ret);
-            return ret;
+            return `https://maps.apple.com/?q=${newString}`;
         } catch (e) {
             console.error(`Error in stringToFind2 manipulation: ${e.toString()}`);
+            return null;
         }
     }
-    
-    
 
-    return null;
 }
 
 
