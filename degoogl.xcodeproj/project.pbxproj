@@ -15,15 +15,11 @@
 		CF7D6C6326FD7DA7005ACE62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D6C6226FD7DA7005ACE62 /* ViewController.swift */; };
 		CF7D6C6626FD7DA7005ACE62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C6426FD7DA7005ACE62 /* LaunchScreen.storyboard */; };
 		CF7D6C6926FD7DA7005ACE62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C6726FD7DA7005ACE62 /* Main.storyboard */; };
-		CF7D6C7526FD7DA9005ACE62 /* degooglTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D6C7426FD7DA9005ACE62 /* degooglTests.swift */; };
-		CF7D6C7F26FD7DA9005ACE62 /* degooglUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D6C7E26FD7DA9005ACE62 /* degooglUITests.swift */; };
-		CF7D6C8126FD7DA9005ACE62 /* degooglUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D6C8026FD7DA9005ACE62 /* degooglUITestsLaunchTests.swift */; };
 		CF7D6C8726FD7DA9005ACE62 /* degoogl Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CF7D6C8626FD7DA9005ACE62 /* degoogl Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CF7D6C8C26FD7DA9005ACE62 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D6C8B26FD7DA9005ACE62 /* SafariWebExtensionHandler.swift */; };
 		CF7D6C8F26FD7DA9005ACE62 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C8E26FD7DA9005ACE62 /* _locales */; };
 		CF7D6C9126FD7DA9005ACE62 /* images in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C9026FD7DA9005ACE62 /* images */; };
 		CF7D6C9326FD7DA9005ACE62 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C9226FD7DA9005ACE62 /* manifest.json */; };
-		CF7D6C9526FD7DA9005ACE62 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C9426FD7DA9005ACE62 /* background.js */; };
 		CF7D6C9726FD7DA9005ACE62 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C9626FD7DA9005ACE62 /* content.js */; };
 		CF7D6C9926FD7DA9005ACE62 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C9826FD7DA9005ACE62 /* popup.html */; };
 		CF7D6C9B26FD7DA9005ACE62 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C9A26FD7DA9005ACE62 /* popup.css */; };
@@ -82,16 +78,12 @@
 		CF7D6C6A26FD7DA9005ACE62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF7D6C6B26FD7DA9005ACE62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF7D6C7026FD7DA9005ACE62 /* degooglTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = degooglTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF7D6C7426FD7DA9005ACE62 /* degooglTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = degooglTests.swift; sourceTree = "<group>"; };
 		CF7D6C7A26FD7DA9005ACE62 /* degooglUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = degooglUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF7D6C7E26FD7DA9005ACE62 /* degooglUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = degooglUITests.swift; sourceTree = "<group>"; };
-		CF7D6C8026FD7DA9005ACE62 /* degooglUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = degooglUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CF7D6C8626FD7DA9005ACE62 /* degoogl Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "degoogl Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7D6C8B26FD7DA9005ACE62 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		CF7D6C8E26FD7DA9005ACE62 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
 		CF7D6C9026FD7DA9005ACE62 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		CF7D6C9226FD7DA9005ACE62 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
-		CF7D6C9426FD7DA9005ACE62 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
 		CF7D6C9626FD7DA9005ACE62 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
 		CF7D6C9826FD7DA9005ACE62 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
 		CF7D6C9A26FD7DA9005ACE62 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
@@ -135,8 +127,6 @@
 			isa = PBXGroup;
 			children = (
 				CF7D6C5526FD7DA7005ACE62 /* degoogl */,
-				CF7D6C7326FD7DA9005ACE62 /* degooglTests */,
-				CF7D6C7D26FD7DA9005ACE62 /* degooglUITests */,
 				CF7D6C8A26FD7DA9005ACE62 /* degoogl Extension */,
 				CF7D6C5426FD7DA7005ACE62 /* Products */,
 			);
@@ -178,23 +168,6 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		CF7D6C7326FD7DA9005ACE62 /* degooglTests */ = {
-			isa = PBXGroup;
-			children = (
-				CF7D6C7426FD7DA9005ACE62 /* degooglTests.swift */,
-			);
-			path = degooglTests;
-			sourceTree = "<group>";
-		};
-		CF7D6C7D26FD7DA9005ACE62 /* degooglUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CF7D6C7E26FD7DA9005ACE62 /* degooglUITests.swift */,
-				CF7D6C8026FD7DA9005ACE62 /* degooglUITestsLaunchTests.swift */,
-			);
-			path = degooglUITests;
-			sourceTree = "<group>";
-		};
 		CF7D6C8A26FD7DA9005ACE62 /* degoogl Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,7 +184,6 @@
 				CF7D6C8E26FD7DA9005ACE62 /* _locales */,
 				CF7D6C9026FD7DA9005ACE62 /* images */,
 				CF7D6C9226FD7DA9005ACE62 /* manifest.json */,
-				CF7D6C9426FD7DA9005ACE62 /* background.js */,
 				CF7D6C9626FD7DA9005ACE62 /* content.js */,
 				CF7D6C9826FD7DA9005ACE62 /* popup.html */,
 				CF7D6C9A26FD7DA9005ACE62 /* popup.css */,
@@ -374,7 +346,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF7D6C9526FD7DA9005ACE62 /* background.js in Resources */,
 				CF7D6C9B26FD7DA9005ACE62 /* popup.css in Resources */,
 				CF7D6C9926FD7DA9005ACE62 /* popup.html in Resources */,
 				CF7D6C9126FD7DA9005ACE62 /* images in Resources */,
@@ -402,7 +373,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF7D6C7526FD7DA9005ACE62 /* degooglTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,8 +380,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF7D6C8126FD7DA9005ACE62 /* degooglUITestsLaunchTests.swift in Sources */,
-				CF7D6C7F26FD7DA9005ACE62 /* degooglUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

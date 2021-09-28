@@ -3,11 +3,10 @@
 }
 
 body {
-    width: 100px;
+    width: auto;
     padding: 10px;
-
     font-family: system-ui;
-    text-align: center;
+    text-align: left;
 }
 
 @media (prefers-color-scheme: dark) {
