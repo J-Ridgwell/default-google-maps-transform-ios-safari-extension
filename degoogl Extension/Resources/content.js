@@ -5,23 +5,23 @@ const seeOtherLocationsBtn = document.querySelector('[data-attrid^="see more loc
 const querySelectorString = '[data-url^="https://maps.google.com"], [href^="https://maps.google.com"], [data-link^="https://maps.google.com"]';
 
 const observer = new MutationObserver(() => {
-        console.log('observer is triggered');
+//        console.log('observer is triggered');
         findElements();
 });
 
 window.addEventListener('load', (event) => {
-    console.info('Find elements upon finished loading');
+//    console.info('Find elements upon finished loading');
     findElements();
     observer.observe(elementToObserve, observeOptions);
     
 });
 
 moreResultsBtn?.addEventListener('click', (event) => {
-    console.log('More results button clicked');
+//    console.log('More results button clicked');
 });
 
 seeOtherLocationsBtn?.addEventListener('click', (event) => {
-    console.log('More results button clicked');
+//    console.log('More results button clicked');
     
 
 });
@@ -29,13 +29,13 @@ seeOtherLocationsBtn?.addEventListener('click', (event) => {
 function findElements() {
     try {
         let elems = document.querySelectorAll(querySelectorString);
-        console.log(elems.length);
+//        console.log(elems.length);
 
         for (const elem of elems) {
             const attributeKey = elem.getAttribute('data-url') ? 'data-url' : elem.getAttribute('data-link') ? 'data-link' : 'href';
             const attributeValue = elem.getAttribute(attributeKey);
             const converted = googleToApple(elem, attributeValue);
-            console.info(`converted url: ${converted}`)
+//            console.info(`converted url: ${converted}`)
             elem.setAttribute(attributeKey, converted ?? attributeValue);
         }
 
@@ -51,7 +51,7 @@ function googleToApple(elem, attributeValue) {
     const stringToFind1 = 'https://maps.google.com/maps/place//data=';
     const stringToFind2 = 'https://maps.google.com/maps?q=';
     
-    console.info(`Original URL: ${url}`);
+//    console.info(`Original URL: ${url}`);
     
     if (url.indexOf(stringToFind) != -1) {
         try {

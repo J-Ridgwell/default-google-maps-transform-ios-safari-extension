@@ -1,10 +1,10 @@
 {
     "extension_name": {
-        "message": "Google Maps Link Converter",
+        "message": "NaviChoice",
         "description": "The display name for the extension."
     },
     "extension_description": {
-        "message": "Google Maps Link Converter takes all Google Maps Links in your search results and converts them to Apple Maps Links! Now tapping directions will open Apple Maps instead of Google Maps",
+        "message": "Now choose the default navigation app for Safari! All Google Maps links are automatically converted under the hood to provide a seamless experience! Just turn it on and forget that Google Maps was ever the default for Safari.",
         "description": "Description of what the extension does."
     }
 }
