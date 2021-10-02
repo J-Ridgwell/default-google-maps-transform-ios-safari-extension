@@ -15,7 +15,7 @@
 		CF7D6C6326FD7DA7005ACE62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D6C6226FD7DA7005ACE62 /* ViewController.swift */; };
 		CF7D6C6626FD7DA7005ACE62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C6426FD7DA7005ACE62 /* LaunchScreen.storyboard */; };
 		CF7D6C6926FD7DA7005ACE62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C6726FD7DA7005ACE62 /* Main.storyboard */; };
-		CF7D6C8726FD7DA9005ACE62 /* degoogl Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CF7D6C8626FD7DA9005ACE62 /* degoogl Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CF7D6C8726FD7DA9005ACE62 /* navichoice Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CF7D6C8626FD7DA9005ACE62 /* navichoice Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CF7D6C8C26FD7DA9005ACE62 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D6C8B26FD7DA9005ACE62 /* SafariWebExtensionHandler.swift */; };
 		CF7D6C8F26FD7DA9005ACE62 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C8E26FD7DA9005ACE62 /* _locales */; };
 		CF7D6C9126FD7DA9005ACE62 /* images in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C9026FD7DA9005ACE62 /* images */; };
@@ -33,21 +33,21 @@
 			containerPortal = CF7D6C4B26FD7DA7005ACE62 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CF7D6C5226FD7DA7005ACE62;
-			remoteInfo = degoogl;
+			remoteInfo = navichoice;
 		};
 		CF7D6C7B26FD7DA9005ACE62 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CF7D6C4B26FD7DA7005ACE62 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CF7D6C5226FD7DA7005ACE62;
-			remoteInfo = degoogl;
+			remoteInfo = navichoice;
 		};
 		CF7D6C8826FD7DA9005ACE62 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CF7D6C4B26FD7DA7005ACE62 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CF7D6C8526FD7DA9005ACE62;
-			remoteInfo = "degoogl Extension";
+			remoteInfo = "navichoice Extension";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -58,7 +58,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				CF7D6C8726FD7DA9005ACE62 /* degoogl Extension.appex in Embed App Extensions */,
+				CF7D6C8726FD7DA9005ACE62 /* navichoice Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,7 +66,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CF7D6C5326FD7DA7005ACE62 /* degoogl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = degoogl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7D6C5326FD7DA7005ACE62 /* navichoice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = navichoice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7D6C5626FD7DA7005ACE62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF7D6C5A26FD7DA7005ACE62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
 		CF7D6C5C26FD7DA7005ACE62 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
@@ -77,9 +77,9 @@
 		CF7D6C6826FD7DA7005ACE62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF7D6C6A26FD7DA9005ACE62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF7D6C6B26FD7DA9005ACE62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CF7D6C7026FD7DA9005ACE62 /* degooglTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = degooglTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF7D6C7A26FD7DA9005ACE62 /* degooglUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = degooglUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF7D6C8626FD7DA9005ACE62 /* degoogl Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "degoogl Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7D6C7026FD7DA9005ACE62 /* navichoiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = navichoiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7D6C7A26FD7DA9005ACE62 /* navichoiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = navichoiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7D6C8626FD7DA9005ACE62 /* navichoice Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "navichoice Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7D6C8B26FD7DA9005ACE62 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		CF7D6C8E26FD7DA9005ACE62 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
 		CF7D6C9026FD7DA9005ACE62 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
@@ -126,8 +126,8 @@
 		CF7D6C4A26FD7DA7005ACE62 = {
 			isa = PBXGroup;
 			children = (
-				CF7D6C5526FD7DA7005ACE62 /* degoogl */,
-				CF7D6C8A26FD7DA9005ACE62 /* degoogl Extension */,
+				CF7D6C5526FD7DA7005ACE62 /* navichoice */,
+				CF7D6C8A26FD7DA9005ACE62 /* navichoice Extension */,
 				CF7D6C5426FD7DA7005ACE62 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -135,15 +135,15 @@
 		CF7D6C5426FD7DA7005ACE62 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CF7D6C5326FD7DA7005ACE62 /* degoogl.app */,
-				CF7D6C7026FD7DA9005ACE62 /* degooglTests.xctest */,
-				CF7D6C7A26FD7DA9005ACE62 /* degooglUITests.xctest */,
-				CF7D6C8626FD7DA9005ACE62 /* degoogl Extension.appex */,
+				CF7D6C5326FD7DA7005ACE62 /* navichoice.app */,
+				CF7D6C7026FD7DA9005ACE62 /* navichoiceTests.xctest */,
+				CF7D6C7A26FD7DA9005ACE62 /* navichoiceUITests.xctest */,
+				CF7D6C8626FD7DA9005ACE62 /* navichoice Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CF7D6C5526FD7DA7005ACE62 /* degoogl */ = {
+		CF7D6C5526FD7DA7005ACE62 /* navichoice */ = {
 			isa = PBXGroup;
 			children = (
 				CF7D6C5626FD7DA7005ACE62 /* AppDelegate.swift */,
@@ -155,7 +155,7 @@
 				CF7D6C6B26FD7DA9005ACE62 /* Info.plist */,
 				CF7D6C5826FD7DA7005ACE62 /* Resources */,
 			);
-			path = degoogl;
+			path = navichoice;
 			sourceTree = "<group>";
 		};
 		CF7D6C5826FD7DA7005ACE62 /* Resources */ = {
@@ -168,14 +168,14 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		CF7D6C8A26FD7DA9005ACE62 /* degoogl Extension */ = {
+		CF7D6C8A26FD7DA9005ACE62 /* navichoice Extension */ = {
 			isa = PBXGroup;
 			children = (
 				CF7D6C8B26FD7DA9005ACE62 /* SafariWebExtensionHandler.swift */,
 				CF7D6C9E26FD7DA9005ACE62 /* Info.plist */,
 				CF7D6C8D26FD7DA9005ACE62 /* Resources */,
 			);
-			path = "degoogl Extension";
+			path = "navichoice Extension";
 			sourceTree = "<group>";
 		};
 		CF7D6C8D26FD7DA9005ACE62 /* Resources */ = {
@@ -195,9 +195,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CF7D6C5226FD7DA7005ACE62 /* degoogl */ = {
+		CF7D6C5226FD7DA7005ACE62 /* navichoice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF7D6CA626FD7DA9005ACE62 /* Build configuration list for PBXNativeTarget "degoogl" */;
+			buildConfigurationList = CF7D6CA626FD7DA9005ACE62 /* Build configuration list for PBXNativeTarget "navichoice" */;
 			buildPhases = (
 				CF7D6C4F26FD7DA7005ACE62 /* Sources */,
 				CF7D6C5026FD7DA7005ACE62 /* Frameworks */,
@@ -209,14 +209,14 @@
 			dependencies = (
 				CF7D6C8926FD7DA9005ACE62 /* PBXTargetDependency */,
 			);
-			name = degoogl;
-			productName = degoogl;
-			productReference = CF7D6C5326FD7DA7005ACE62 /* degoogl.app */;
+			name = navichoice;
+			productName = navichoice;
+			productReference = CF7D6C5326FD7DA7005ACE62 /* navichoice.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CF7D6C6F26FD7DA9005ACE62 /* degooglTests */ = {
+		CF7D6C6F26FD7DA9005ACE62 /* navichoiceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF7D6CA926FD7DA9005ACE62 /* Build configuration list for PBXNativeTarget "degooglTests" */;
+			buildConfigurationList = CF7D6CA926FD7DA9005ACE62 /* Build configuration list for PBXNativeTarget "navichoiceTests" */;
 			buildPhases = (
 				CF7D6C6C26FD7DA9005ACE62 /* Sources */,
 				CF7D6C6D26FD7DA9005ACE62 /* Frameworks */,
@@ -227,14 +227,14 @@
 			dependencies = (
 				CF7D6C7226FD7DA9005ACE62 /* PBXTargetDependency */,
 			);
-			name = degooglTests;
-			productName = degooglTests;
-			productReference = CF7D6C7026FD7DA9005ACE62 /* degooglTests.xctest */;
+			name = navichoiceTests;
+			productName = navichoiceTests;
+			productReference = CF7D6C7026FD7DA9005ACE62 /* navichoiceTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CF7D6C7926FD7DA9005ACE62 /* degooglUITests */ = {
+		CF7D6C7926FD7DA9005ACE62 /* navichoiceUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF7D6CAC26FD7DA9005ACE62 /* Build configuration list for PBXNativeTarget "degooglUITests" */;
+			buildConfigurationList = CF7D6CAC26FD7DA9005ACE62 /* Build configuration list for PBXNativeTarget "navichoiceUITests" */;
 			buildPhases = (
 				CF7D6C7626FD7DA9005ACE62 /* Sources */,
 				CF7D6C7726FD7DA9005ACE62 /* Frameworks */,
@@ -245,14 +245,14 @@
 			dependencies = (
 				CF7D6C7C26FD7DA9005ACE62 /* PBXTargetDependency */,
 			);
-			name = degooglUITests;
-			productName = degooglUITests;
-			productReference = CF7D6C7A26FD7DA9005ACE62 /* degooglUITests.xctest */;
+			name = navichoiceUITests;
+			productName = navichoiceUITests;
+			productReference = CF7D6C7A26FD7DA9005ACE62 /* navichoiceUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		CF7D6C8526FD7DA9005ACE62 /* degoogl Extension */ = {
+		CF7D6C8526FD7DA9005ACE62 /* navichoice Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF7D6CA226FD7DA9005ACE62 /* Build configuration list for PBXNativeTarget "degoogl Extension" */;
+			buildConfigurationList = CF7D6CA226FD7DA9005ACE62 /* Build configuration list for PBXNativeTarget "navichoice Extension" */;
 			buildPhases = (
 				CF7D6C8226FD7DA9005ACE62 /* Sources */,
 				CF7D6C8326FD7DA9005ACE62 /* Frameworks */,
@@ -262,9 +262,9 @@
 			);
 			dependencies = (
 			);
-			name = "degoogl Extension";
-			productName = "degoogl Extension";
-			productReference = CF7D6C8626FD7DA9005ACE62 /* degoogl Extension.appex */;
+			name = "navichoice Extension";
+			productName = "navichoice Extension";
+			productReference = CF7D6C8626FD7DA9005ACE62 /* navichoice Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -293,7 +293,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CF7D6C4E26FD7DA7005ACE62 /* Build configuration list for PBXProject "degoogl" */;
+			buildConfigurationList = CF7D6C4E26FD7DA7005ACE62 /* Build configuration list for PBXProject "navichoice" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -306,10 +306,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CF7D6C5226FD7DA7005ACE62 /* degoogl */,
-				CF7D6C6F26FD7DA9005ACE62 /* degooglTests */,
-				CF7D6C7926FD7DA9005ACE62 /* degooglUITests */,
-				CF7D6C8526FD7DA9005ACE62 /* degoogl Extension */,
+				CF7D6C5226FD7DA7005ACE62 /* navichoice */,
+				CF7D6C6F26FD7DA9005ACE62 /* navichoiceTests */,
+				CF7D6C7926FD7DA9005ACE62 /* navichoiceUITests */,
+				CF7D6C8526FD7DA9005ACE62 /* navichoice Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -396,17 +396,17 @@
 /* Begin PBXTargetDependency section */
 		CF7D6C7226FD7DA9005ACE62 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CF7D6C5226FD7DA7005ACE62 /* degoogl */;
+			target = CF7D6C5226FD7DA7005ACE62 /* navichoice */;
 			targetProxy = CF7D6C7126FD7DA9005ACE62 /* PBXContainerItemProxy */;
 		};
 		CF7D6C7C26FD7DA9005ACE62 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CF7D6C5226FD7DA7005ACE62 /* degoogl */;
+			target = CF7D6C5226FD7DA7005ACE62 /* navichoice */;
 			targetProxy = CF7D6C7B26FD7DA9005ACE62 /* PBXContainerItemProxy */;
 		};
 		CF7D6C8926FD7DA9005ACE62 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CF7D6C8526FD7DA9005ACE62 /* degoogl Extension */;
+			target = CF7D6C8526FD7DA9005ACE62 /* navichoice Extension */;
 			targetProxy = CF7D6C8826FD7DA9005ACE62 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -562,8 +562,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 773WNUNYUG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "degoogl Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "degoogl Extension";
+				INFOPLIST_FILE = "navichoice Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "navichoice Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -576,7 +576,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.degoogl.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.navichoice.Extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -592,8 +592,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 773WNUNYUG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "degoogl Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "degoogl Extension";
+				INFOPLIST_FILE = "navichoice Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "navichoice Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -606,7 +606,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.degoogl.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.navichoice.Extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -625,8 +625,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 773WNUNYUG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = degoogl/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = degoogl;
+				INFOPLIST_FILE = navichoice/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NaviChoice;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -644,7 +644,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.degoogl;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.navichoice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -662,8 +662,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 773WNUNYUG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = degoogl/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = degoogl;
+				INFOPLIST_FILE = navichoice/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NaviChoice;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -681,7 +681,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.degoogl;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.navichoice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -705,12 +705,12 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.degooglTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.navichoiceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/degoogl.app/degoogl";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/navichoice.app/navichoice";
 			};
 			name = Debug;
 		};
@@ -730,12 +730,12 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.degooglTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.navichoiceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/degoogl.app/degoogl";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/navichoice.app/navichoice";
 			};
 			name = Release;
 		};
@@ -753,12 +753,12 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.degooglUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.navichoiceUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = degoogl;
+				TEST_TARGET_NAME = navichoice;
 			};
 			name = Debug;
 		};
@@ -776,19 +776,19 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.degooglUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.navichoiceUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = degoogl;
+				TEST_TARGET_NAME = navichoice;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CF7D6C4E26FD7DA7005ACE62 /* Build configuration list for PBXProject "degoogl" */ = {
+		CF7D6C4E26FD7DA7005ACE62 /* Build configuration list for PBXProject "navichoice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF7D6CA026FD7DA9005ACE62 /* Debug */,
@@ -797,7 +797,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF7D6CA226FD7DA9005ACE62 /* Build configuration list for PBXNativeTarget "degoogl Extension" */ = {
+		CF7D6CA226FD7DA9005ACE62 /* Build configuration list for PBXNativeTarget "navichoice Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF7D6CA326FD7DA9005ACE62 /* Debug */,
@@ -806,7 +806,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF7D6CA626FD7DA9005ACE62 /* Build configuration list for PBXNativeTarget "degoogl" */ = {
+		CF7D6CA626FD7DA9005ACE62 /* Build configuration list for PBXNativeTarget "navichoice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF7D6CA726FD7DA9005ACE62 /* Debug */,
@@ -815,7 +815,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF7D6CA926FD7DA9005ACE62 /* Build configuration list for PBXNativeTarget "degooglTests" */ = {
+		CF7D6CA926FD7DA9005ACE62 /* Build configuration list for PBXNativeTarget "navichoiceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF7D6CAA26FD7DA9005ACE62 /* Debug */,
@@ -824,7 +824,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF7D6CAC26FD7DA9005ACE62 /* Build configuration list for PBXNativeTarget "degooglUITests" */ = {
+		CF7D6CAC26FD7DA9005ACE62 /* Build configuration list for PBXNativeTarget "navichoiceUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF7D6CAD26FD7DA9005ACE62 /* Debug */,

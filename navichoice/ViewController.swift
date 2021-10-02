@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  degoogl
+//  NaviChoice
 //
 //  Created by Jacob Ridgwell on 9/23/21.
 //

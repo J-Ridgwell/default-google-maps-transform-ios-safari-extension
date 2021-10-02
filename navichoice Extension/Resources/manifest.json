@@ -16,7 +16,7 @@
     
     "content_scripts": [{
         "js": [ "content.js" ],
-        "matches": ["*://google.com/*"]
+        "matches": ["*://www.google.com/*"]
         
     }],
 

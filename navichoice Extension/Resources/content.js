@@ -1,4 +1,8 @@
+console.log("running content.js");
 const elementToObserve = document.querySelector("body");
+const wazeAuthority = "https://waze.com/ul"; // Requires '&navigate=yes' to be appended
+const appleMapsAuthority = "maps://maps.apple.com/";
+const authority = appleMapsAuthority;
 const observeOptions = { subtree: false, childList: true, attributes: false };
 const moreResultsBtn = document.getElementsByTagName('g-more-link')[0];
 const seeOtherLocationsBtn = document.querySelector('[data-attrid^="see more locations"]');
@@ -10,7 +14,7 @@ const observer = new MutationObserver(() => {
 });
 
 window.addEventListener('load', (event) => {
-//    console.info('Find elements upon finished loading');
+    console.info('Find elements upon finished loading');
     findElements();
     observer.observe(elementToObserve, observeOptions);
     
@@ -29,11 +33,12 @@ seeOtherLocationsBtn?.addEventListener('click', (event) => {
 function findElements() {
     try {
         let elems = document.querySelectorAll(querySelectorString);
-//        console.log(elems.length);
+        console.log(elems.length);
 
         for (const elem of elems) {
             const attributeKey = elem.getAttribute('data-url') ? 'data-url' : elem.getAttribute('data-link') ? 'data-link' : 'href';
             const attributeValue = elem.getAttribute(attributeKey);
+            extractAddress(elem, attributeValue);
             const converted = googleToApple(elem, attributeValue);
 //            console.info(`converted url: ${converted}`)
             elem.setAttribute(attributeKey, converted ?? attributeValue);
@@ -44,6 +49,31 @@ function findElements() {
     }
 }
 
+
+function extractAddress(elem, attributeValue) {
+    let url = attributeValue.toString();
+    const stringToFind = 'https://maps.google.com/maps/dir//';
+    const stringToFind1 = 'https://maps.google.com/maps/place//data=';
+    const stringToFind2 = 'https://maps.google.com/maps?q=';
+    let address;
+    console.info(`Original URL: ${url}`);
+
+    if (url.includes(stringToFind)) {
+        try {
+            address = url.slice(stringToFind.length, url.indexOf('/data=')).replaceAll(',','');
+        } catch (e) {
+            console.error(`Error in stringToFind manipulation: ${e.toString()}`);
+            return null;
+        }
+    }
+    
+    if (authority.includes("waze")) {
+        address?.replaceAll('+', "%20");
+    }
+    
+    return address;
+
+}
 
 function googleToApple(elem, attributeValue) {
     let url = attributeValue.toString();
@@ -56,7 +86,7 @@ function googleToApple(elem, attributeValue) {
     if (url.indexOf(stringToFind) != -1) {
         try {
             let urlBuilder = url.slice(stringToFind.length, url.indexOf('/data=')).replaceAll(',','');
-            return `https://maps.apple.com/?daddr=${urlBuilder}`;
+            return `${authority}?daddr=${urlBuilder}`;
         } catch (e) {
             console.error(`Error in stringToFind manipulation: ${e.toString()}`);
             return null;
@@ -66,7 +96,7 @@ function googleToApple(elem, attributeValue) {
     if (url.indexOf(stringToFind1) != -1) {
         try {
             let innerText = elem.innerText.replaceAll(' ', '+').replaceAll(',','');
-            return `https://maps.apple.com/?daddr=${innerText}`;
+            return `${authority}?daddr=${innerText}`;
         } catch (e) {
             console.error(`Error in stringToFind1 manipulation: ${e.toString()}`);
             return null;
@@ -76,7 +106,7 @@ function googleToApple(elem, attributeValue) {
     if (url.indexOf(stringToFind2) != -1) {
         try {
             let newString = url.slice(stringToFind2.length, url.indexOf('&'));
-            return `https://maps.apple.com/?q=${newString}`;
+            return `${authority}?q=${newString}`;
         } catch (e) {
             console.error(`Error in stringToFind2 manipulation: ${e.toString()}`);
             return null;
