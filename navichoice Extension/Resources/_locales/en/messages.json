@@ -4,7 +4,7 @@
         "description": "The display name for the extension."
     },
     "extension_description": {
-        "message": "Now choose the default navigation app for Safari! All Google Maps links are automatically converted under the hood to provide a seamless experience! Just turn it on and forget that Google Maps was ever the default for Safari.",
+        "message": "Now choose the navigation app for Safari! Google search results will launch your choice of Apple Maps or Waze!",
         "description": "Description of what the extension does."
     }
 }

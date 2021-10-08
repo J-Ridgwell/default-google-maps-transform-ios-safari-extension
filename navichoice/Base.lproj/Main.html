@@ -1,15 +1,36 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Security-Policy" content="default-src 'self'" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, user-scalable=no"
+		/>
 
-    <link rel="stylesheet" href="../Style.css">
-</head>
-<body>
-    <img src="../Icon.png" width="256" height="256" alt="NaviChoice Icon">
-    <p>You can turn on NaviChoice Safari extension in Settings.</p>
-</body>
+		<link rel="stylesheet" href="../Style.css" />
+        <script src="../Script.js" defer></script>
+
+	</head>
+	<body>
+
+		<img src="../Icon.png" width="256" height="256" alt="NaviChoice Icon" />
+		<p>You can turn on NaviChoice Safari extension in Settings.</p>
+		<section class="default-navigation">
+			<h4>Choose the default application for Google search results</h4>
+			<div class="nav-choices">
+				<label for="apple-maps">Apple Maps</label>
+				<input
+					type="radio"
+					id="apple-maps"
+					name="preferred_nav"
+					value="apple-maps"
+				/>
+				<br />
+				<label for="waze">Waze</label>
+				<input type="radio" id="waze" name="preferred_nav" value="waze"/>
+			</div>
+		</section>
+	</body>
 </html>

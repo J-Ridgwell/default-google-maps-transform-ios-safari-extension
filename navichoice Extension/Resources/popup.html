@@ -6,6 +6,20 @@
     <script type="module" src="popup.js"></script>
 </head>
 <body>
-    <p>NaviChoice currently only supports Apple Maps as the default navigation app. More navigation apps coming soon!</p>
+    <section class="default-navigation">
+        <h4>Choose the default application for Google search results</h4>
+        <div class="nav-choices">
+            <label for="apple-maps">Apple Maps</label>
+            <input
+                type="radio"
+                id="apple-maps"
+                name="preferred_nav"
+                value="apple-maps"
+            />
+            <br />
+            <label for="waze">Waze</label>
+            <input type="radio" id="waze" name="preferred_nav" value="waze"/>
+        </div>
+    </section>
 </body>
 </html>

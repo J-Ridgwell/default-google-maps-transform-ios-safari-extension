@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF11DD052708BBBE007237E7 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = CF11DD042708BBBE007237E7 /* Script.js */; };
 		CF7D6C5726FD7DA7005ACE62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D6C5626FD7DA7005ACE62 /* AppDelegate.swift */; };
 		CF7D6C5B26FD7DA7005ACE62 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C5926FD7DA7005ACE62 /* Main.html */; };
 		CF7D6C5D26FD7DA7005ACE62 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C5C26FD7DA7005ACE62 /* Icon.png */; };
@@ -66,6 +67,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CF11DD042708BBBE007237E7 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
 		CF7D6C5326FD7DA7005ACE62 /* navichoice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = navichoice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7D6C5626FD7DA7005ACE62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF7D6C5A26FD7DA7005ACE62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 		CF7D6C5826FD7DA7005ACE62 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CF11DD042708BBBE007237E7 /* Script.js */,
 				CF7D6C5926FD7DA7005ACE62 /* Main.html */,
 				CF7D6C5C26FD7DA7005ACE62 /* Icon.png */,
 				CF7D6C5E26FD7DA7005ACE62 /* Style.css */,
@@ -319,6 +322,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF11DD052708BBBE007237E7 /* Script.js in Resources */,
 				CF7D6C5D26FD7DA7005ACE62 /* Icon.png in Resources */,
 				CF7D6C6926FD7DA7005ACE62 /* Main.storyboard in Resources */,
 				CF7D6C6626FD7DA7005ACE62 /* LaunchScreen.storyboard in Resources */,
@@ -563,7 +567,7 @@
 				DEVELOPMENT_TEAM = 773WNUNYUG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "navichoice Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "navichoice Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = NaviChoice;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -576,7 +580,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.navichoice.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ridgwell-software.navichoice.extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -593,7 +597,7 @@
 				DEVELOPMENT_TEAM = 773WNUNYUG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "navichoice Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "navichoice Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = NaviChoice;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -606,7 +610,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.navichoice.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ridgwell-software.navichoice.extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -644,11 +648,11 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.navichoice;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ridgwell-software.navichoice";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -681,11 +685,11 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.navichoice;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ridgwell-software.navichoice";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
