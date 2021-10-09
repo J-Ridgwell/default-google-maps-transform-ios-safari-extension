@@ -1,11 +1,10 @@
-const defaultNaviPromise = browser.storage.local.get('defaultNavi');
+const defaultNaviPromise = browser.storage.local.get("defaultNavi");
 
 //console.log("running content.js");
 //
 //browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
 //    console.log("Received request: ", request);
 //});
-
 
 const querySelectorString =
 	'[data-url^="https://maps.google.com"], [href^="https://maps.google.com"], [data-link^="https://maps.google.com"]';
@@ -20,13 +19,17 @@ const observer = new MutationObserver(() => {
 	findElements();
 });
 
-
 window.addEventListener("load", (event) => {
-    defaultNaviPromise.then((items) => {
-        authority = items.defaultNavi === "waze" ? wazeAuthority : appleMapsAuthority;
-        findElements();
-        observer.observe(elementToObserve, observeOptions);
-    }, (error) => {console.log(error)});
+	defaultNaviPromise.then(
+		(items) => {
+			authority = items.defaultNavi === "waze" ? wazeAuthority : appleMapsAuthority;
+			findElements();
+			observer.observe(elementToObserve, observeOptions);
+		},
+		(error) => {
+			console.log(error);
+		}
+	);
 });
 
 //const moreResultsBtn = document.getElementsByTagName("g-more-link")[0];
@@ -51,9 +54,9 @@ function findElements() {
 				: elem.getAttribute("data-link")
 				? "data-link"
 				: "href";
-            
+
 			const attributeValue = elem.getAttribute(attributeKey);
-            
+
 			const convertedURL = createNavigationURL(
 				extractAddress(elem, attributeValue)
 			);
@@ -72,8 +75,8 @@ function extractAddress(elem, attributeValue) {
 	const stringToFind1 = "https://maps.google.com/maps/place//data=";
 	const stringToFind2 = "https://maps.google.com/maps?q=";
 	let address;
-    
-//	console.info(`Original URL: ${url}`);
+
+	//	console.info(`Original URL: ${url}`);
 
 	try {
 		if (url.includes(stringToFind)) {
@@ -96,7 +99,7 @@ function extractAddress(elem, attributeValue) {
 		address?.replaceAll("+", "%20");
 	}
 
-    return address;
+	return address;
 }
 
 function createNavigationURL(address) {
@@ -105,7 +108,6 @@ function createNavigationURL(address) {
 			authority.includes("waze") ? "&navigation=yes" : ""
 		}`;
 }
-
 
 //console.log("url = " + window.location.href);
 //console.log("webNav = " + window.WebNavigation);
