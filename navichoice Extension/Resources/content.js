@@ -12,6 +12,10 @@ const querySelectorString =
 const wazeAuthority = "https://waze.com/ul"; // Requires '&navigate=yes' to be appended once address is inserted
 const appleMapsAuthority = "https://maps.apple.com/";
 let authority;
+let urlParams = new Map([
+	["beforeAddress", ""],
+	["afterAddress", ""],
+]);
 
 const elementToObserve = document.querySelector("body");
 const observeOptions = { subtree: false, childList: true, attributes: false };
@@ -60,7 +64,7 @@ function findElements() {
 			const convertedURL = createNavigationURL(
 				extractAddress(elem, attributeValue)
 			);
-
+//            if (convertedURL) console.log(convertedURL);
 			elem.setAttribute(attributeKey, convertedURL ?? attributeValue);
 		}
 	} catch (e) {
@@ -83,12 +87,15 @@ function extractAddress(elem, attributeValue) {
 			address = url
 				.slice(stringToFind.length, url.indexOf("/data="))
 				.replaceAll(",", "");
+			urlParams.set("beforeAddress", "?daddr=");
 		}
 		if (url.includes(stringToFind1)) {
 			address = elem.innerText.replaceAll(" ", "+").replaceAll(",", "");
+            urlParams.set("beforeAddress", "?daddr=");
 		}
 		if (url.includes(stringToFind2)) {
 			address = url.slice(stringToFind2.length, url.indexOf("&"));
+            urlParams.set("beforeAddress", "?q=");
 		}
 	} catch (e) {
 		console.error(`Error in string manipulation: ${e.toString()}`);
@@ -96,17 +103,19 @@ function extractAddress(elem, attributeValue) {
 	}
 
 	if (authority.includes("waze")) {
-		address?.replaceAll("+", "%20");
+		address = address?.replaceAll("+", "%20");
+		urlParams.set("beforeAddress", "?q=");
+		urlParams.set("afterAddress", "&navigation=yes");
 	}
-
+    
 	return address;
 }
 
 function createNavigationURL(address) {
 	if (address != null)
-		return `${authority}${authority.includes("apple") ? "?daddr=" : "?q="}${address}${
-			authority.includes("waze") ? "&navigation=yes" : ""
-		}`;
+		return `${authority}${urlParams.get("beforeAddress")}${address}${urlParams.get(
+			"afterAddress"
+		)}`;
 }
 
 //console.log("url = " + window.location.href);
