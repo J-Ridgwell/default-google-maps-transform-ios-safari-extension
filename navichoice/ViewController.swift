@@ -12,6 +12,12 @@ class ViewController: UIViewController, WKNavigationDelegate, WKScriptMessageHan
 
     @IBOutlet var webView: WKWebView!
 
+    @IBAction func btn(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.navichoice.app/setup")!);
+
+    }
+    @IBAction func setupLink(_ sender: UITextField) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
