@@ -7,13 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF11DD052708BBBE007237E7 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = CF11DD042708BBBE007237E7 /* Script.js */; };
+		B349848F2717A2BC00A7A20B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B349848E2717A2BC00A7A20B /* ViewController.swift */; };
 		CF7D6C5726FD7DA7005ACE62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D6C5626FD7DA7005ACE62 /* AppDelegate.swift */; };
-		CF7D6C5B26FD7DA7005ACE62 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C5926FD7DA7005ACE62 /* Main.html */; };
 		CF7D6C5D26FD7DA7005ACE62 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C5C26FD7DA7005ACE62 /* Icon.png */; };
-		CF7D6C5F26FD7DA7005ACE62 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C5E26FD7DA7005ACE62 /* Style.css */; };
 		CF7D6C6126FD7DA7005ACE62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D6C6026FD7DA7005ACE62 /* SceneDelegate.swift */; };
-		CF7D6C6326FD7DA7005ACE62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D6C6226FD7DA7005ACE62 /* ViewController.swift */; };
 		CF7D6C6626FD7DA7005ACE62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C6426FD7DA7005ACE62 /* LaunchScreen.storyboard */; };
 		CF7D6C6926FD7DA7005ACE62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C6726FD7DA7005ACE62 /* Main.storyboard */; };
 		CF7D6C8726FD7DA9005ACE62 /* navichoice Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CF7D6C8626FD7DA9005ACE62 /* navichoice Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -67,14 +64,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CF11DD042708BBBE007237E7 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		B349848E2717A2BC00A7A20B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CF7D6C5326FD7DA7005ACE62 /* navichoice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = navichoice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7D6C5626FD7DA7005ACE62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CF7D6C5A26FD7DA7005ACE62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
 		CF7D6C5C26FD7DA7005ACE62 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		CF7D6C5E26FD7DA7005ACE62 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
 		CF7D6C6026FD7DA7005ACE62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CF7D6C6226FD7DA7005ACE62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CF7D6C6526FD7DA7005ACE62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF7D6C6826FD7DA7005ACE62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF7D6C6A26FD7DA9005ACE62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -150,12 +144,12 @@
 			children = (
 				CF7D6C5626FD7DA7005ACE62 /* AppDelegate.swift */,
 				CF7D6C6026FD7DA7005ACE62 /* SceneDelegate.swift */,
-				CF7D6C6226FD7DA7005ACE62 /* ViewController.swift */,
 				CF7D6C6426FD7DA7005ACE62 /* LaunchScreen.storyboard */,
 				CF7D6C6726FD7DA7005ACE62 /* Main.storyboard */,
 				CF7D6C6A26FD7DA9005ACE62 /* Assets.xcassets */,
 				CF7D6C6B26FD7DA9005ACE62 /* Info.plist */,
 				CF7D6C5826FD7DA7005ACE62 /* Resources */,
+				B349848E2717A2BC00A7A20B /* ViewController.swift */,
 			);
 			path = navichoice;
 			sourceTree = "<group>";
@@ -163,10 +157,7 @@
 		CF7D6C5826FD7DA7005ACE62 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CF11DD042708BBBE007237E7 /* Script.js */,
-				CF7D6C5926FD7DA7005ACE62 /* Main.html */,
 				CF7D6C5C26FD7DA7005ACE62 /* Icon.png */,
-				CF7D6C5E26FD7DA7005ACE62 /* Style.css */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -322,13 +313,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF11DD052708BBBE007237E7 /* Script.js in Resources */,
 				CF7D6C5D26FD7DA7005ACE62 /* Icon.png in Resources */,
 				CF7D6C6926FD7DA7005ACE62 /* Main.storyboard in Resources */,
 				CF7D6C6626FD7DA7005ACE62 /* LaunchScreen.storyboard in Resources */,
-				CF7D6C5B26FD7DA7005ACE62 /* Main.html in Resources */,
 				CF7D6C9F26FD7DA9005ACE62 /* Assets.xcassets in Resources */,
-				CF7D6C5F26FD7DA7005ACE62 /* Style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,9 +355,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF7D6C6326FD7DA7005ACE62 /* ViewController.swift in Sources */,
 				CF7D6C5726FD7DA7005ACE62 /* AppDelegate.swift in Sources */,
 				CF7D6C6126FD7DA7005ACE62 /* SceneDelegate.swift in Sources */,
+				B349848F2717A2BC00A7A20B /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,14 +404,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CF7D6C5926FD7DA7005ACE62 /* Main.html */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CF7D6C5A26FD7DA7005ACE62 /* Base */,
-			);
-			name = Main.html;
-			sourceTree = "<group>";
-		};
 		CF7D6C6426FD7DA7005ACE62 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -563,7 +543,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = 773WNUNYUG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "navichoice Extension/Info.plist";
@@ -575,7 +555,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1;
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -593,7 +573,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = 773WNUNYUG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "navichoice Extension/Info.plist";
@@ -605,7 +585,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1;
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -641,7 +621,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1;
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -678,7 +658,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1;
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,

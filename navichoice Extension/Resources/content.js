@@ -1,11 +1,5 @@
 const defaultNaviPromise = browser.storage.local.get("defaultNavi");
 
-//console.log("running content.js");
-//
-//browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
-//    console.log("Received request: ", request);
-//});
-
 const querySelectorString =
 	'[data-url^="https://maps.google.com"], [href^="https://maps.google.com"], [data-link^="https://maps.google.com"]';
 
@@ -36,18 +30,6 @@ window.addEventListener("load", (event) => {
 	);
 });
 
-//const moreResultsBtn = document.getElementsByTagName("g-more-link")[0];
-//moreResultsBtn?.addEventListener("click", (event) => {
-//	    console.log('More results button clicked');
-//});
-//
-//const seeOtherLocationsBtn = document.querySelector(
-//    '[data-attrid^="see more locations"]'
-//);
-//seeOtherLocationsBtn?.addEventListener("click", (event) => {
-//	//    console.log('More results button clicked');
-//});
-
 function findElements() {
 	try {
 		const elems = document.querySelectorAll(querySelectorString);
@@ -64,7 +46,7 @@ function findElements() {
 			const convertedURL = createNavigationURL(
 				extractAddress(elem, attributeValue)
 			);
-//            if (convertedURL) console.log(convertedURL);
+            
 			elem.setAttribute(attributeKey, convertedURL ?? attributeValue);
 		}
 	} catch (e) {
@@ -79,8 +61,6 @@ function extractAddress(elem, attributeValue) {
 	const stringToFind1 = "https://maps.google.com/maps/place//data=";
 	const stringToFind2 = "https://maps.google.com/maps?q=";
 	let address;
-
-	//	console.info(`Original URL: ${url}`);
 
 	try {
 		if (url.includes(stringToFind)) {

@@ -1,40 +1,19 @@
 //
-//  ViewController.swift
-//  NaviChoice
+//  WebViewController.swift
+//  navichoice
 //
-//  Created by Jacob Ridgwell on 9/23/21.
+//  Created by Zack Moss on 10/13/21.
 //
 
 import UIKit
 import WebKit
 
-class ViewController: UIViewController, WKNavigationDelegate, WKScriptMessageHandler {
-
-    @IBOutlet var webView: WKWebView!
-
-    @IBAction func btn(_ sender: UIButton) {
-        UIApplication.shared.open(URL(string: "https://www.navichoice.app/setup")!);
-
+class ViewController: UIViewController {
+    private let url = "https://www.navichoice.app/setup";
+        
+    @IBAction func setupTutorialClicked(_ sender: Any) {
+        if let url = URL(string: url) {
+            UIApplication.shared.open(url)
+        }
     }
-    @IBAction func setupLink(_ sender: UITextField) {
-    }
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        self.webView.navigationDelegate = self
-        self.webView.scrollView.isScrollEnabled = false
-
-        self.webView.configuration.userContentController.add(self, name: "controller")
-
-        self.webView.loadFileURL(Bundle.main.url(forResource: "Main", withExtension: "html")!, allowingReadAccessTo: Bundle.main.resourceURL!)
-    }
-
-    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
-        // Override point for customization.
-    }
-
-    func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
-        // Override point for customization.
-    }
-
 }
