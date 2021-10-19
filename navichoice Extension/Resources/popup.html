@@ -1,25 +1,17 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="popup.css">
-    <script type="module" src="popup.js"></script>
-</head>
-<body>
-    <section class="default-navigation">
-        <h4>Choose the default application for Google search results</h4>
-        <div class="nav-choices">
-            <label for="apple-maps">Apple Maps</label>
-            <input
-                type="radio"
-                id="apple-maps"
-                name="preferred_nav"
-                value="apple-maps"
-            />
-            <br />
-            <label for="waze">Waze</label>
-            <input type="radio" id="waze" name="preferred_nav" value="waze"/>
-        </div>
-    </section>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="popup.css" />
+		<script type="module" src="popup.js"></script>
+	</head>
+	<body>
+		<section class="default-navigation">
+			<h4>Default navigation app for Google search results</h4>
+			<div class="nav-choices">
+                <button id="waze">Waze</button>
+				<button id="apple-maps">Apple Maps</button>
+			</div>
+		</section>
+	</body>
 </html>

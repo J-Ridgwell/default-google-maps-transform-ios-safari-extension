@@ -1,14 +1,26 @@
 :root {
-    color-scheme: light dark;
+	color-scheme: light dark;
 }
 
 body {
-    width: auto;
-    padding: 10px;
-    font-family: system-ui;
-    text-align: left;
+	width: auto;
+	padding: 10px;
+	font-family: system-ui;
+	text-align: left;
+}
+
+.nav-choices {
+    text-align: center;
+}
+
+.nav-choices button {
+	padding: 30px 40px 30px 40px;
+	background-color: #eee;
+	border-radius: 10px;
+    -webkit-transition-duration: 300ms;
+    font-size: 16px;
 }
 
 @media (prefers-color-scheme: dark) {
-    /* Dark Mode styles go here. */
+	/* Dark Mode styles go here. */
 }
