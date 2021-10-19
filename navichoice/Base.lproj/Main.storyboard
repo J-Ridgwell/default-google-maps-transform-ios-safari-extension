@@ -27,11 +27,10 @@
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qGX-BL-CmZ">
-                                        <rect key="frame" x="109.5" y="176" width="195" height="31"/>
+                                        <rect key="frame" x="36" y="176" width="342" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="See the setup tutorial here"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Click here to enable NaviChoice directly in Safari!"/>
                                         <connections>
-                                            <action selector="setupTutorialClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CHY-8k-qfk"/>
                                             <action selector="setupTutorialClicked:" destination="YUL-Wt-PIT" eventType="touchUpInside" id="JzX-Cq-HT5"/>
                                         </connections>
                                     </button>
@@ -49,8 +48,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Yl4-QF-090" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="8IA-1w-6oY"/>
-                            <constraint firstItem="Yl4-QF-090" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hHA-u3-Zpx"/>
+                            <constraint firstItem="Yl4-QF-090" firstAttribute="centerY" secondItem="JuN-Rv-C2f" secondAttribute="centerY" id="UaL-7D-oGf"/>
                             <constraint firstItem="Yl4-QF-090" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="iOS-If-25W"/>
                             <constraint firstItem="Yl4-QF-090" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="kbp-Hk-c7i"/>
                         </constraints>
