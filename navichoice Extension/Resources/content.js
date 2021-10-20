@@ -18,6 +18,7 @@ const observer = new MutationObserver(() => {
 });
 
 window.addEventListener("load", (event) => {
+    removeAds();
 	defaultNaviPromise.then(
 		(items) => {
 			authority = items.defaultNavi === "waze" ? wazeAuthority : appleMapsAuthority;
@@ -42,10 +43,8 @@ function findElements() {
 				: "href";
 
 			const attributeValue = elem.getAttribute(attributeKey);
-
-			const convertedURL = createNavigationURL(
-				extractAddress(elem, attributeValue)
-			);
+            const extractedAddress = extractAddress(elem, attributeValue);
+			const convertedURL = createNavigationURL(extractedAddress);
             
 			elem.setAttribute(attributeKey, convertedURL ?? attributeValue);
 		}
@@ -60,6 +59,7 @@ function extractAddress(elem, attributeValue) {
 	const stringToFind = "https://maps.google.com/maps/dir//";
 	const stringToFind1 = "https://maps.google.com/maps/place//data=";
 	const stringToFind2 = "https://maps.google.com/maps?q=";
+    const stringToFind3 = "https://maps.google.com/maps/place/";
 	let address;
 
 	try {
@@ -72,7 +72,12 @@ function extractAddress(elem, attributeValue) {
 		if (url.includes(stringToFind1)) {
 			address = elem.innerText.replaceAll(" ", "+").replaceAll(",", "");
             urlParams.set("beforeAddress", "?daddr=");
-		}
+        } else if (url.includes(stringToFind3)) {
+            address = url
+                .slice(stringToFind3.length, url.indexOf("/", stringToFind3.length + 1))
+                .replaceAll(",", "");
+            urlParams.set("beforeAddress", "?daddr=");
+        }
 		if (url.includes(stringToFind2)) {
 			address = url.slice(stringToFind2.length, url.indexOf("&"));
             urlParams.set("beforeAddress", "?q=");
@@ -96,6 +101,14 @@ function createNavigationURL(address) {
 		return `${authority}${urlParams.get("beforeAddress")}${address}${urlParams.get(
 			"afterAddress"
 		)}`;
+}
+
+function removeAds() {
+    const elems = document.querySelectorAll("data-text-ad=1");
+    for (const elem of elems) {
+        elem.remove();
+    }
+
 }
 
 //console.log("url = " + window.location.href);
