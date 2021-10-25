@@ -7,56 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B349848F2717A2BC00A7A20B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B349848E2717A2BC00A7A20B /* ViewController.swift */; };
-		CF7D6C5726FD7DA7005ACE62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D6C5626FD7DA7005ACE62 /* AppDelegate.swift */; };
-		CF7D6C5D26FD7DA7005ACE62 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C5C26FD7DA7005ACE62 /* Icon.png */; };
-		CF7D6C6126FD7DA7005ACE62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D6C6026FD7DA7005ACE62 /* SceneDelegate.swift */; };
-		CF7D6C6626FD7DA7005ACE62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C6426FD7DA7005ACE62 /* LaunchScreen.storyboard */; };
-		CF7D6C6926FD7DA7005ACE62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C6726FD7DA7005ACE62 /* Main.storyboard */; };
-		CF7D6C8726FD7DA9005ACE62 /* navichoice Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CF7D6C8626FD7DA9005ACE62 /* navichoice Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		CF7D6C8C26FD7DA9005ACE62 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D6C8B26FD7DA9005ACE62 /* SafariWebExtensionHandler.swift */; };
-		CF7D6C8F26FD7DA9005ACE62 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C8E26FD7DA9005ACE62 /* _locales */; };
-		CF7D6C9126FD7DA9005ACE62 /* images in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C9026FD7DA9005ACE62 /* images */; };
-		CF7D6C9326FD7DA9005ACE62 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C9226FD7DA9005ACE62 /* manifest.json */; };
-		CF7D6C9726FD7DA9005ACE62 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C9626FD7DA9005ACE62 /* content.js */; };
-		CF7D6C9926FD7DA9005ACE62 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C9826FD7DA9005ACE62 /* popup.html */; };
-		CF7D6C9B26FD7DA9005ACE62 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C9A26FD7DA9005ACE62 /* popup.css */; };
-		CF7D6C9D26FD7DA9005ACE62 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C9C26FD7DA9005ACE62 /* popup.js */; };
-		CF7D6C9F26FD7DA9005ACE62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF7D6C6A26FD7DA9005ACE62 /* Assets.xcassets */; };
+		CF1C782F2725F51C008BAB89 /* navichoiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C782E2725F51C008BAB89 /* navichoiceApp.swift */; };
+		CF1C78312725F51C008BAB89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C78302725F51C008BAB89 /* ContentView.swift */; };
+		CF1C78332725F51F008BAB89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1C78322725F51F008BAB89 /* Assets.xcassets */; };
+		CF1C78362725F51F008BAB89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1C78352725F51F008BAB89 /* Preview Assets.xcassets */; };
+		CF1C78432725F552008BAB89 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C78422725F552008BAB89 /* SafariWebExtensionHandler.swift */; };
+		CF1C78462725F552008BAB89 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = CF1C78452725F552008BAB89 /* _locales */; };
+		CF1C78482725F552008BAB89 /* images in Resources */ = {isa = PBXBuildFile; fileRef = CF1C78472725F552008BAB89 /* images */; };
+		CF1C784A2725F552008BAB89 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1C78492725F552008BAB89 /* manifest.json */; };
+		CF1C784E2725F552008BAB89 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = CF1C784D2725F552008BAB89 /* content.js */; };
+		CF1C78502725F552008BAB89 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = CF1C784F2725F552008BAB89 /* popup.html */; };
+		CF1C78522725F552008BAB89 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = CF1C78512725F552008BAB89 /* popup.css */; };
+		CF1C78542725F552008BAB89 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = CF1C78532725F552008BAB89 /* popup.js */; };
+		CF1C78582725F552008BAB89 /* extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CF1C78402725F552008BAB89 /* extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CF7D6C7126FD7DA9005ACE62 /* PBXContainerItemProxy */ = {
+		CF1C78562725F552008BAB89 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CF7D6C4B26FD7DA7005ACE62 /* Project object */;
+			containerPortal = CF1C78232725F51C008BAB89 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CF7D6C5226FD7DA7005ACE62;
-			remoteInfo = navichoice;
-		};
-		CF7D6C7B26FD7DA9005ACE62 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CF7D6C4B26FD7DA7005ACE62 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CF7D6C5226FD7DA7005ACE62;
-			remoteInfo = navichoice;
-		};
-		CF7D6C8826FD7DA9005ACE62 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CF7D6C4B26FD7DA7005ACE62 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CF7D6C8526FD7DA9005ACE62;
-			remoteInfo = "navichoice Extension";
+			remoteGlobalIDString = CF1C783F2725F552008BAB89;
+			remoteInfo = extension;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		CF7D6CA526FD7DA9005ACE62 /* Embed App Extensions */ = {
+		CF1C785C2725F552008BAB89 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				CF7D6C8726FD7DA9005ACE62 /* navichoice Extension.appex in Embed App Extensions */,
+				CF1C78582725F552008BAB89 /* extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,52 +47,32 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B349848E2717A2BC00A7A20B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CF7D6C5326FD7DA7005ACE62 /* navichoice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = navichoice.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF7D6C5626FD7DA7005ACE62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CF7D6C5C26FD7DA7005ACE62 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		CF7D6C6026FD7DA7005ACE62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CF7D6C6526FD7DA7005ACE62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CF7D6C6826FD7DA7005ACE62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CF7D6C6A26FD7DA9005ACE62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CF7D6C6B26FD7DA9005ACE62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CF7D6C7026FD7DA9005ACE62 /* navichoiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = navichoiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF7D6C7A26FD7DA9005ACE62 /* navichoiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = navichoiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF7D6C8626FD7DA9005ACE62 /* navichoice Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "navichoice Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF7D6C8B26FD7DA9005ACE62 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
-		CF7D6C8E26FD7DA9005ACE62 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
-		CF7D6C9026FD7DA9005ACE62 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
-		CF7D6C9226FD7DA9005ACE62 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
-		CF7D6C9626FD7DA9005ACE62 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
-		CF7D6C9826FD7DA9005ACE62 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
-		CF7D6C9A26FD7DA9005ACE62 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
-		CF7D6C9C26FD7DA9005ACE62 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
-		CF7D6C9E26FD7DA9005ACE62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF1C782B2725F51C008BAB89 /* navichoice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = navichoice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1C782E2725F51C008BAB89 /* navichoiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navichoiceApp.swift; sourceTree = "<group>"; };
+		CF1C78302725F51C008BAB89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF1C78322725F51F008BAB89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF1C78352725F51F008BAB89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF1C78402725F552008BAB89 /* extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1C78422725F552008BAB89 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		CF1C78452725F552008BAB89 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		CF1C78472725F552008BAB89 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		CF1C78492725F552008BAB89 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		CF1C784D2725F552008BAB89 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		CF1C784F2725F552008BAB89 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		CF1C78512725F552008BAB89 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		CF1C78532725F552008BAB89 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		CF1C78552725F552008BAB89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CF7D6C5026FD7DA7005ACE62 /* Frameworks */ = {
+		CF1C78282725F51C008BAB89 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF7D6C6D26FD7DA9005ACE62 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF7D6C7726FD7DA9005ACE62 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF7D6C8326FD7DA9005ACE62 /* Frameworks */ = {
+		CF1C783D2725F552008BAB89 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -119,69 +82,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CF7D6C4A26FD7DA7005ACE62 = {
+		CF1C78222725F51C008BAB89 = {
 			isa = PBXGroup;
 			children = (
-				CF7D6C5526FD7DA7005ACE62 /* navichoice */,
-				CF7D6C8A26FD7DA9005ACE62 /* navichoice Extension */,
-				CF7D6C5426FD7DA7005ACE62 /* Products */,
+				CF1C782D2725F51C008BAB89 /* navichoice */,
+				CF1C78412725F552008BAB89 /* extension */,
+				CF1C782C2725F51C008BAB89 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CF7D6C5426FD7DA7005ACE62 /* Products */ = {
+		CF1C782C2725F51C008BAB89 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CF7D6C5326FD7DA7005ACE62 /* navichoice.app */,
-				CF7D6C7026FD7DA9005ACE62 /* navichoiceTests.xctest */,
-				CF7D6C7A26FD7DA9005ACE62 /* navichoiceUITests.xctest */,
-				CF7D6C8626FD7DA9005ACE62 /* navichoice Extension.appex */,
+				CF1C782B2725F51C008BAB89 /* navichoice.app */,
+				CF1C78402725F552008BAB89 /* extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CF7D6C5526FD7DA7005ACE62 /* navichoice */ = {
+		CF1C782D2725F51C008BAB89 /* navichoice */ = {
 			isa = PBXGroup;
 			children = (
-				CF7D6C5626FD7DA7005ACE62 /* AppDelegate.swift */,
-				CF7D6C6026FD7DA7005ACE62 /* SceneDelegate.swift */,
-				CF7D6C6426FD7DA7005ACE62 /* LaunchScreen.storyboard */,
-				CF7D6C6726FD7DA7005ACE62 /* Main.storyboard */,
-				CF7D6C6A26FD7DA9005ACE62 /* Assets.xcassets */,
-				CF7D6C6B26FD7DA9005ACE62 /* Info.plist */,
-				CF7D6C5826FD7DA7005ACE62 /* Resources */,
-				B349848E2717A2BC00A7A20B /* ViewController.swift */,
+				CF1C782E2725F51C008BAB89 /* navichoiceApp.swift */,
+				CF1C78302725F51C008BAB89 /* ContentView.swift */,
+				CF1C78322725F51F008BAB89 /* Assets.xcassets */,
+				CF1C78342725F51F008BAB89 /* Preview Content */,
 			);
 			path = navichoice;
 			sourceTree = "<group>";
 		};
-		CF7D6C5826FD7DA7005ACE62 /* Resources */ = {
+		CF1C78342725F51F008BAB89 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				CF7D6C5C26FD7DA7005ACE62 /* Icon.png */,
+				CF1C78352725F51F008BAB89 /* Preview Assets.xcassets */,
 			);
-			path = Resources;
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		CF7D6C8A26FD7DA9005ACE62 /* navichoice Extension */ = {
+		CF1C78412725F552008BAB89 /* extension */ = {
 			isa = PBXGroup;
 			children = (
-				CF7D6C8B26FD7DA9005ACE62 /* SafariWebExtensionHandler.swift */,
-				CF7D6C9E26FD7DA9005ACE62 /* Info.plist */,
-				CF7D6C8D26FD7DA9005ACE62 /* Resources */,
+				CF1C78422725F552008BAB89 /* SafariWebExtensionHandler.swift */,
+				CF1C78552725F552008BAB89 /* Info.plist */,
+				CF1C78442725F552008BAB89 /* Resources */,
 			);
-			path = "navichoice Extension";
+			path = extension;
 			sourceTree = "<group>";
 		};
-		CF7D6C8D26FD7DA9005ACE62 /* Resources */ = {
+		CF1C78442725F552008BAB89 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CF7D6C8E26FD7DA9005ACE62 /* _locales */,
-				CF7D6C9026FD7DA9005ACE62 /* images */,
-				CF7D6C9226FD7DA9005ACE62 /* manifest.json */,
-				CF7D6C9626FD7DA9005ACE62 /* content.js */,
-				CF7D6C9826FD7DA9005ACE62 /* popup.html */,
-				CF7D6C9A26FD7DA9005ACE62 /* popup.css */,
-				CF7D6C9C26FD7DA9005ACE62 /* popup.js */,
+				CF1C78452725F552008BAB89 /* _locales */,
+				CF1C78472725F552008BAB89 /* images */,
+				CF1C78492725F552008BAB89 /* manifest.json */,
+				CF1C784D2725F552008BAB89 /* content.js */,
+				CF1C784F2725F552008BAB89 /* popup.html */,
+				CF1C78512725F552008BAB89 /* popup.css */,
+				CF1C78532725F552008BAB89 /* popup.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -189,105 +146,61 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CF7D6C5226FD7DA7005ACE62 /* navichoice */ = {
+		CF1C782A2725F51C008BAB89 /* navichoice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF7D6CA626FD7DA9005ACE62 /* Build configuration list for PBXNativeTarget "navichoice" */;
+			buildConfigurationList = CF1C78392725F51F008BAB89 /* Build configuration list for PBXNativeTarget "navichoice" */;
 			buildPhases = (
-				CF7D6C4F26FD7DA7005ACE62 /* Sources */,
-				CF7D6C5026FD7DA7005ACE62 /* Frameworks */,
-				CF7D6C5126FD7DA7005ACE62 /* Resources */,
-				CF7D6CA526FD7DA9005ACE62 /* Embed App Extensions */,
+				CF1C78272725F51C008BAB89 /* Sources */,
+				CF1C78282725F51C008BAB89 /* Frameworks */,
+				CF1C78292725F51C008BAB89 /* Resources */,
+				CF1C785C2725F552008BAB89 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CF7D6C8926FD7DA9005ACE62 /* PBXTargetDependency */,
+				CF1C78572725F552008BAB89 /* PBXTargetDependency */,
 			);
 			name = navichoice;
 			productName = navichoice;
-			productReference = CF7D6C5326FD7DA7005ACE62 /* navichoice.app */;
+			productReference = CF1C782B2725F51C008BAB89 /* navichoice.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CF7D6C6F26FD7DA9005ACE62 /* navichoiceTests */ = {
+		CF1C783F2725F552008BAB89 /* extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF7D6CA926FD7DA9005ACE62 /* Build configuration list for PBXNativeTarget "navichoiceTests" */;
+			buildConfigurationList = CF1C78592725F552008BAB89 /* Build configuration list for PBXNativeTarget "extension" */;
 			buildPhases = (
-				CF7D6C6C26FD7DA9005ACE62 /* Sources */,
-				CF7D6C6D26FD7DA9005ACE62 /* Frameworks */,
-				CF7D6C6E26FD7DA9005ACE62 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CF7D6C7226FD7DA9005ACE62 /* PBXTargetDependency */,
-			);
-			name = navichoiceTests;
-			productName = navichoiceTests;
-			productReference = CF7D6C7026FD7DA9005ACE62 /* navichoiceTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		CF7D6C7926FD7DA9005ACE62 /* navichoiceUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CF7D6CAC26FD7DA9005ACE62 /* Build configuration list for PBXNativeTarget "navichoiceUITests" */;
-			buildPhases = (
-				CF7D6C7626FD7DA9005ACE62 /* Sources */,
-				CF7D6C7726FD7DA9005ACE62 /* Frameworks */,
-				CF7D6C7826FD7DA9005ACE62 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CF7D6C7C26FD7DA9005ACE62 /* PBXTargetDependency */,
-			);
-			name = navichoiceUITests;
-			productName = navichoiceUITests;
-			productReference = CF7D6C7A26FD7DA9005ACE62 /* navichoiceUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		CF7D6C8526FD7DA9005ACE62 /* navichoice Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CF7D6CA226FD7DA9005ACE62 /* Build configuration list for PBXNativeTarget "navichoice Extension" */;
-			buildPhases = (
-				CF7D6C8226FD7DA9005ACE62 /* Sources */,
-				CF7D6C8326FD7DA9005ACE62 /* Frameworks */,
-				CF7D6C8426FD7DA9005ACE62 /* Resources */,
+				CF1C783C2725F552008BAB89 /* Sources */,
+				CF1C783D2725F552008BAB89 /* Frameworks */,
+				CF1C783E2725F552008BAB89 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "navichoice Extension";
-			productName = "navichoice Extension";
-			productReference = CF7D6C8626FD7DA9005ACE62 /* navichoice Extension.appex */;
+			name = extension;
+			productName = extension;
+			productReference = CF1C78402725F552008BAB89 /* extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CF7D6C4B26FD7DA7005ACE62 /* Project object */ = {
+		CF1C78232725F51C008BAB89 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					CF7D6C5226FD7DA7005ACE62 = {
+					CF1C782A2725F51C008BAB89 = {
 						CreatedOnToolsVersion = 13.0;
 					};
-					CF7D6C6F26FD7DA9005ACE62 = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = CF7D6C5226FD7DA7005ACE62;
-					};
-					CF7D6C7926FD7DA9005ACE62 = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = CF7D6C5226FD7DA7005ACE62;
-					};
-					CF7D6C8526FD7DA9005ACE62 = {
+					CF1C783F2725F552008BAB89 = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
 			};
-			buildConfigurationList = CF7D6C4E26FD7DA7005ACE62 /* Build configuration list for PBXProject "navichoice" */;
+			buildConfigurationList = CF1C78262725F51C008BAB89 /* Build configuration list for PBXProject "navichoice" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -295,135 +208,73 @@
 				en,
 				Base,
 			);
-			mainGroup = CF7D6C4A26FD7DA7005ACE62;
-			productRefGroup = CF7D6C5426FD7DA7005ACE62 /* Products */;
+			mainGroup = CF1C78222725F51C008BAB89;
+			productRefGroup = CF1C782C2725F51C008BAB89 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CF7D6C5226FD7DA7005ACE62 /* navichoice */,
-				CF7D6C6F26FD7DA9005ACE62 /* navichoiceTests */,
-				CF7D6C7926FD7DA9005ACE62 /* navichoiceUITests */,
-				CF7D6C8526FD7DA9005ACE62 /* navichoice Extension */,
+				CF1C782A2725F51C008BAB89 /* navichoice */,
+				CF1C783F2725F552008BAB89 /* extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CF7D6C5126FD7DA7005ACE62 /* Resources */ = {
+		CF1C78292725F51C008BAB89 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF7D6C5D26FD7DA7005ACE62 /* Icon.png in Resources */,
-				CF7D6C6926FD7DA7005ACE62 /* Main.storyboard in Resources */,
-				CF7D6C6626FD7DA7005ACE62 /* LaunchScreen.storyboard in Resources */,
-				CF7D6C9F26FD7DA9005ACE62 /* Assets.xcassets in Resources */,
+				CF1C78362725F51F008BAB89 /* Preview Assets.xcassets in Resources */,
+				CF1C78332725F51F008BAB89 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF7D6C6E26FD7DA9005ACE62 /* Resources */ = {
+		CF1C783E2725F552008BAB89 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF7D6C7826FD7DA9005ACE62 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF7D6C8426FD7DA9005ACE62 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CF7D6C9B26FD7DA9005ACE62 /* popup.css in Resources */,
-				CF7D6C9926FD7DA9005ACE62 /* popup.html in Resources */,
-				CF7D6C9126FD7DA9005ACE62 /* images in Resources */,
-				CF7D6C9326FD7DA9005ACE62 /* manifest.json in Resources */,
-				CF7D6C8F26FD7DA9005ACE62 /* _locales in Resources */,
-				CF7D6C9726FD7DA9005ACE62 /* content.js in Resources */,
-				CF7D6C9D26FD7DA9005ACE62 /* popup.js in Resources */,
+				CF1C78522725F552008BAB89 /* popup.css in Resources */,
+				CF1C78502725F552008BAB89 /* popup.html in Resources */,
+				CF1C78482725F552008BAB89 /* images in Resources */,
+				CF1C784A2725F552008BAB89 /* manifest.json in Resources */,
+				CF1C78462725F552008BAB89 /* _locales in Resources */,
+				CF1C784E2725F552008BAB89 /* content.js in Resources */,
+				CF1C78542725F552008BAB89 /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CF7D6C4F26FD7DA7005ACE62 /* Sources */ = {
+		CF1C78272725F51C008BAB89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF7D6C5726FD7DA7005ACE62 /* AppDelegate.swift in Sources */,
-				CF7D6C6126FD7DA7005ACE62 /* SceneDelegate.swift in Sources */,
-				B349848F2717A2BC00A7A20B /* ViewController.swift in Sources */,
+				CF1C78312725F51C008BAB89 /* ContentView.swift in Sources */,
+				CF1C782F2725F51C008BAB89 /* navichoiceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF7D6C6C26FD7DA9005ACE62 /* Sources */ = {
+		CF1C783C2725F552008BAB89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF7D6C7626FD7DA9005ACE62 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF7D6C8226FD7DA9005ACE62 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CF7D6C8C26FD7DA9005ACE62 /* SafariWebExtensionHandler.swift in Sources */,
+				CF1C78432725F552008BAB89 /* SafariWebExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CF7D6C7226FD7DA9005ACE62 /* PBXTargetDependency */ = {
+		CF1C78572725F552008BAB89 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CF7D6C5226FD7DA7005ACE62 /* navichoice */;
-			targetProxy = CF7D6C7126FD7DA9005ACE62 /* PBXContainerItemProxy */;
-		};
-		CF7D6C7C26FD7DA9005ACE62 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CF7D6C5226FD7DA7005ACE62 /* navichoice */;
-			targetProxy = CF7D6C7B26FD7DA9005ACE62 /* PBXContainerItemProxy */;
-		};
-		CF7D6C8926FD7DA9005ACE62 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CF7D6C8526FD7DA9005ACE62 /* navichoice Extension */;
-			targetProxy = CF7D6C8826FD7DA9005ACE62 /* PBXContainerItemProxy */;
+			target = CF1C783F2725F552008BAB89 /* extension */;
+			targetProxy = CF1C78562725F552008BAB89 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		CF7D6C6426FD7DA7005ACE62 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CF7D6C6526FD7DA7005ACE62 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		CF7D6C6726FD7DA7005ACE62 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CF7D6C6826FD7DA7005ACE62 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		CF7D6CA026FD7DA9005ACE62 /* Debug */ = {
+		CF1C78372725F51F008BAB89 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -484,7 +335,7 @@
 			};
 			name = Debug;
 		};
-		CF7D6CA126FD7DA9005ACE62 /* Release */ = {
+		CF1C78382725F51F008BAB89 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -539,15 +390,77 @@
 			};
 			name = Release;
 		};
-		CF7D6CA326FD7DA9005ACE62 /* Debug */ = {
+		CF1C783A2725F51F008BAB89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"navichoice/Preview Content\"";
+				DEVELOPMENT_TEAM = 773WNUNYUG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.navichoice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF1C783B2725F51F008BAB89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"navichoice/Preview Content\"";
+				DEVELOPMENT_TEAM = 773WNUNYUG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.navichoice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF1C785A2725F552008BAB89 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 773WNUNYUG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "navichoice Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = NaviChoice;
+				INFOPLIST_FILE = extension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = extension;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -560,7 +473,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ridgwell-software.navichoice.extension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.navichoice.extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -569,15 +482,15 @@
 			};
 			name = Debug;
 		};
-		CF7D6CA426FD7DA9005ACE62 /* Release */ = {
+		CF1C785B2725F552008BAB89 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 773WNUNYUG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "navichoice Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = NaviChoice;
+				INFOPLIST_FILE = extension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = extension;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -590,234 +503,46 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ridgwell-software.navichoice.extension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.navichoice.extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		CF7D6CA726FD7DA9005ACE62 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 773WNUNYUG;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = navichoice/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = NaviChoice;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = (
-					"-framework",
-					SafariServices,
-					"-framework",
-					WebKit,
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ridgwell-software.navichoice";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Debug;
-		};
-		CF7D6CA826FD7DA9005ACE62 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 773WNUNYUG;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = navichoice/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = NaviChoice;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = (
-					"-framework",
-					SafariServices,
-					"-framework",
-					WebKit,
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ridgwell-software.navichoice";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		CF7D6CAA26FD7DA9005ACE62 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 773WNUNYUG;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.navichoiceTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/navichoice.app/navichoice";
-			};
-			name = Debug;
-		};
-		CF7D6CAB26FD7DA9005ACE62 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 773WNUNYUG;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.navichoiceTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/navichoice.app/navichoice";
-			};
-			name = Release;
-		};
-		CF7D6CAD26FD7DA9005ACE62 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 773WNUNYUG;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.navichoiceUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = navichoice;
-			};
-			name = Debug;
-		};
-		CF7D6CAE26FD7DA9005ACE62 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 773WNUNYUG;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Prometheus.navichoiceUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = navichoice;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CF7D6C4E26FD7DA7005ACE62 /* Build configuration list for PBXProject "navichoice" */ = {
+		CF1C78262725F51C008BAB89 /* Build configuration list for PBXProject "navichoice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CF7D6CA026FD7DA9005ACE62 /* Debug */,
-				CF7D6CA126FD7DA9005ACE62 /* Release */,
+				CF1C78372725F51F008BAB89 /* Debug */,
+				CF1C78382725F51F008BAB89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF7D6CA226FD7DA9005ACE62 /* Build configuration list for PBXNativeTarget "navichoice Extension" */ = {
+		CF1C78392725F51F008BAB89 /* Build configuration list for PBXNativeTarget "navichoice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CF7D6CA326FD7DA9005ACE62 /* Debug */,
-				CF7D6CA426FD7DA9005ACE62 /* Release */,
+				CF1C783A2725F51F008BAB89 /* Debug */,
+				CF1C783B2725F51F008BAB89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF7D6CA626FD7DA9005ACE62 /* Build configuration list for PBXNativeTarget "navichoice" */ = {
+		CF1C78592725F552008BAB89 /* Build configuration list for PBXNativeTarget "extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CF7D6CA726FD7DA9005ACE62 /* Debug */,
-				CF7D6CA826FD7DA9005ACE62 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CF7D6CA926FD7DA9005ACE62 /* Build configuration list for PBXNativeTarget "navichoiceTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CF7D6CAA26FD7DA9005ACE62 /* Debug */,
-				CF7D6CAB26FD7DA9005ACE62 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CF7D6CAC26FD7DA9005ACE62 /* Build configuration list for PBXNativeTarget "navichoiceUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CF7D6CAD26FD7DA9005ACE62 /* Debug */,
-				CF7D6CAE26FD7DA9005ACE62 /* Release */,
+				CF1C785A2725F552008BAB89 /* Debug */,
+				CF1C785B2725F552008BAB89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CF7D6C4B26FD7DA7005ACE62 /* Project object */;
+	rootObject = CF1C78232725F51C008BAB89 /* Project object */;
 }
