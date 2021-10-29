@@ -20,6 +20,8 @@
 		CF1C78522725F552008BAB89 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = CF1C78512725F552008BAB89 /* popup.css */; };
 		CF1C78542725F552008BAB89 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = CF1C78532725F552008BAB89 /* popup.js */; };
 		CF1C78582725F552008BAB89 /* extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CF1C78402725F552008BAB89 /* extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CF87754B272AF1FC00744F41 /* howToEnableVideo.mov in Resources */ = {isa = PBXBuildFile; fileRef = CF87754A272AF1FC00744F41 /* howToEnableVideo.mov */; };
+		CF8FBF1C2728CDC300EBA375 /* HowToEnable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8FBF1B2728CDC300EBA375 /* HowToEnable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 		CF1C78512725F552008BAB89 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
 		CF1C78532725F552008BAB89 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		CF1C78552725F552008BAB89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF87754A272AF1FC00744F41 /* howToEnableVideo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = howToEnableVideo.mov; sourceTree = "<group>"; };
+		CF8FBF1B2728CDC300EBA375 /* HowToEnable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToEnable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF05727E2729A10B0013B304 /* static */ = {
+			isa = PBXGroup;
+			children = (
+				CF87754A272AF1FC00744F41 /* howToEnableVideo.mov */,
+			);
+			path = static;
+			sourceTree = "<group>";
+		};
 		CF1C78222725F51C008BAB89 = {
 			isa = PBXGroup;
 			children = (
@@ -103,10 +115,12 @@
 		CF1C782D2725F51C008BAB89 /* navichoice */ = {
 			isa = PBXGroup;
 			children = (
+				CF05727E2729A10B0013B304 /* static */,
 				CF1C782E2725F51C008BAB89 /* navichoiceApp.swift */,
 				CF1C78302725F51C008BAB89 /* ContentView.swift */,
 				CF1C78322725F51F008BAB89 /* Assets.xcassets */,
 				CF1C78342725F51F008BAB89 /* Preview Content */,
+				CF8FBF1B2728CDC300EBA375 /* HowToEnable.swift */,
 			);
 			path = navichoice;
 			sourceTree = "<group>";
@@ -226,6 +240,7 @@
 			files = (
 				CF1C78362725F51F008BAB89 /* Preview Assets.xcassets in Resources */,
 				CF1C78332725F51F008BAB89 /* Assets.xcassets in Resources */,
+				CF87754B272AF1FC00744F41 /* howToEnableVideo.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF1C78312725F51C008BAB89 /* ContentView.swift in Sources */,
+				CF8FBF1C2728CDC300EBA375 /* HowToEnable.swift in Sources */,
 				CF1C782F2725F51C008BAB89 /* navichoiceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,12 +418,13 @@
 				DEVELOPMENT_TEAM = 773WNUNYUG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = navichoice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -433,12 +450,13 @@
 				DEVELOPMENT_TEAM = 773WNUNYUG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = navichoice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
