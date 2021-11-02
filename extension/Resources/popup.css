@@ -87,5 +87,9 @@ input:checked + .slider:before {
 	/* Dark Mode styles go here. */
 	.nav-choices button {
 		color: white;
+        background-color: #333;
 	}
+    .slider {
+        background-color: #333;
+    }
 }
